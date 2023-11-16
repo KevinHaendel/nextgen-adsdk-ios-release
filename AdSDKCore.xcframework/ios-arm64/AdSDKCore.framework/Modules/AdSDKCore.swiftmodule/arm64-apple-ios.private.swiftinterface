@@ -1,0 +1,198 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdSDKCore
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AdSDKCore
+import Combine
+import Foundation
+import Network
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+public struct AdMetadata {
+  public let networkId: Swift.Int
+  public let campaignId: Swift.String
+  public let bannerId: Swift.String
+  public let adType: Swift.String
+  public let adName: Swift.String?
+  public let ext: [Swift.String : Any]
+  public var rendererMetadata: [Swift.String : Any]? {
+    get
+  }
+  public init(networkId: Swift.Int, campaignId: Swift.String, bannerId: Swift.String, adType: Swift.String, adName: Swift.String?, rawResponse: Foundation.Data, rendererMetadata: [Swift.String : Any]? = nil) throws
+}
+public struct AdRequest : Swift.Equatable {
+  public init(contentUnit: Swift.UInt, profile: [Swift.String : Swift.String]? = nil, keywords: [Swift.String]? = nil, window: Swift.UInt32? = nil, timeoutAfterSeconds: Swift.Int? = nil, gdprPd: Swift.String? = nil)
+  public static func == (a: AdSDKCore.AdRequest, b: AdSDKCore.AdRequest) -> Swift.Bool
+}
+public protocol Advertisement : AnyObject {
+  var metadata: AdSDKCore.AdMetadata? { get }
+  var controller: (AdSDKCore.AdController)? { get }
+  var state: AdSDKCore.AdState { get }
+  var eventPublisher: Combine.AnyPublisher<AdSDKCore.AdEvent, Swift.Never> { get }
+  var eventStream: _Concurrency.AsyncStream<AdSDKCore.AdEvent> { get }
+  var statePublisher: Combine.AnyPublisher<AdSDKCore.AdState, Swift.Never> { get }
+  var stateStream: _Concurrency.AsyncStream<AdSDKCore.AdState> { get }
+  func reload()
+  func handleVisibility(_ visibility: AdSDKCore.AdVisibilityPercentage)
+  func triggerAdClick(url: Swift.String?)
+}
+public enum AdState {
+  case loading
+  case caching
+  case readyToPresent(metadata: AdSDKCore.AdMetadata)
+  case error(_: Swift.Error)
+}
+public enum AdEvent {
+  case tap(url: Foundation.URL, metadata: AdSDKCore.AdMetadata)
+  case impression(url: Foundation.URL, metadata: AdSDKCore.AdMetadata)
+  case viewable(percentage: AdSDKCore.AdVisibilityPercentage, url: Foundation.URL, metadata: AdSDKCore.AdMetadata)
+  case showingAsset(id: Swift.String, url: Foundation.URL, metadata: AdSDKCore.AdMetadata)
+  case customRendererEvent(name: Swift.String, url: Foundation.URL, metadata: AdSDKCore.AdMetadata)
+  case error(_: AdSDKCore.AdError)
+}
+public enum AdVisibilityPercentage : Swift.Int {
+  case one
+  case fifty
+  case oneHundred
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class AdService {
+  final public var isLoggingEnabled: Swift.Bool {
+    get
+    set
+  }
+  public init(networkID: Swift.UInt)
+  @objc deinit
+}
+extension AdSDKCore.AdService {
+  final public func configure() -> Combine.AnyPublisher<Swift.Never, AdSDKCore.AdError>
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func configure() async throws
+  #endif
+  final public func registerRenderer<T>(_ renderer: T.Type, forName name: Swift.String) where T : AdSDKCore.AdRenderer
+  final public func unregisterRenderer(forName name: Swift.String)
+  final public func makeAdvertisement(request: AdSDKCore.AdRequest) -> Combine.AnyPublisher<AdSDKCore.Advertisement, AdSDKCore.AdError>
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func makeAdvertisement(request: AdSDKCore.AdRequest) async throws -> AdSDKCore.Advertisement
+  #endif
+  final public func tagUser(request: AdSDKCore.TagRequest) -> Combine.AnyPublisher<Swift.Never, AdSDKCore.AdError>
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func tagUser(request: AdSDKCore.TagRequest) async throws
+  #endif
+  final public func trackRequest(_ request: AdSDKCore.TrackRequest) -> Combine.AnyPublisher<Swift.Never, AdSDKCore.AdError>
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func trackRequest(_ request: AdSDKCore.TrackRequest) async throws
+  #endif
+  final public func setCacheSize(_ size: Swift.UInt8)
+  final public func flushCache()
+  final public func getAdSDKCoreVersion() -> Swift.String
+  final public func setOptOut(_ isOptOutEnabled: Swift.Bool)
+  final public func clearOptOut()
+  final public func setGdprConsentData(gdprConsentData: Swift.String, isGdprRulesEnabled: Swift.Bool? = nil)
+  final public func clearGdprConsentData()
+  final public func setExternalUid(externalUid: Swift.String, isExternalUidStable: Swift.Bool? = nil)
+  final public func clearExternalId()
+}
+public struct TrackRequest : Swift.Equatable {
+  public init(landingpageId: Swift.UInt16, trackingspotId: Swift.UInt16, orderId: Swift.String? = nil, price: Swift.Float? = nil, total: Swift.Float? = nil, quantity: Swift.UInt32? = nil, itemNumber: Swift.String? = nil, description: Swift.String? = nil)
+  public static func == (a: AdSDKCore.TrackRequest, b: AdSDKCore.TrackRequest) -> Swift.Bool
+}
+public enum AdError : Swift.Error, Swift.Equatable {
+  case configuration
+  case reference
+  case decoding
+  case unknownRenderer
+  case profileValidationFailed
+  case keywordsValidationFailed
+  case tagsValidationFailed
+  case gdprConsentStringValidationFailed
+  case externalIDValidationFailed
+  case trackValidationFailed
+  case clientIssue
+  case serverIssue
+  case unknownStatusCode
+  case badURL
+  case timedOut
+  case hostConnectionIssue
+  case tooManyRedirects
+  case resourceUnavailable
+  case reachabilityUnavailable
+  case unspecifiedNetworkError
+  case serverErrorResponse(message: Swift.String)
+  case assetWithIdNotFound(assetId: Swift.String)
+  case tapEventHandlingInProcess
+  public static func == (a: AdSDKCore.AdError, b: AdSDKCore.AdError) -> Swift.Bool
+}
+public protocol AdRenderer {
+  associatedtype Controller : AdSDKCore.AdController where Self == Self.Controller.Renderer
+  init(controller: Self.Controller)
+}
+public struct TapURL : Swift.Equatable {
+  public let isURLWithRedirects: Swift.Bool
+  public let url: Foundation.URL
+  public let rawURL: Swift.String
+  public init(_ rawURL: Swift.String) throws
+  public static func == (a: AdSDKCore.TapURL, b: AdSDKCore.TapURL) -> Swift.Bool
+}
+public struct TagRequest : Swift.Equatable {
+  public init(_ tags: [AdSDKCore.TagRequest.Tag])
+  public static func == (a: AdSDKCore.TagRequest, b: AdSDKCore.TagRequest) -> Swift.Bool
+}
+extension AdSDKCore.TagRequest {
+  public struct Tag : Swift.Equatable {
+    public init(key: Swift.String, subkey: Swift.String, value: Swift.String? = nil)
+    public static func == (a: AdSDKCore.TagRequest.Tag, b: AdSDKCore.TagRequest.Tag) -> Swift.Bool
+  }
+}
+public enum AdControllerState : AdSDKCore.AssetRepositoryState {
+  case caching
+  case readyToPresent(metadata: [Swift.String : Any]? = nil)
+  case error(_: Swift.Error)
+}
+public enum AdControllerEvent : Swift.Equatable {
+  case tapAsset(id: Swift.String)
+  case tap
+  case tapURL(_: AdSDKCore.TapURL)
+  case showingAsset(id: Swift.String)
+  case customRendererEvent(name: Swift.String, url: Foundation.URL)
+  public static func == (a: AdSDKCore.AdControllerEvent, b: AdSDKCore.AdControllerEvent) -> Swift.Bool
+}
+public protocol AdController : AnyObject {
+  associatedtype Renderer : AdSDKCore.AdRenderer where Self == Self.Renderer.Controller
+  var state: Combine.AnyPublisher<AdSDKCore.AdControllerState, Swift.Never> { get }
+  var event: Combine.AnyPublisher<AdSDKCore.AdControllerEvent, Swift.Never> { get }
+  init(_ assetRepository: AdSDKCore.AssetRepository)
+  func update(_ data: Foundation.Data)
+}
+extension AdSDKCore.AdController {
+  public func _makeRenderer() -> Self.Renderer
+}
+public protocol AssetRepositoryState {
+  static var caching: Self { get }
+}
+public struct AssetRequest : Swift.Equatable {
+  public let id: Swift.String
+  public let url: Foundation.URL
+  public init(id: Swift.String, url: Foundation.URL)
+  public static func == (a: AdSDKCore.AssetRequest, b: AdSDKCore.AssetRequest) -> Swift.Bool
+}
+public struct AssetResult : Swift.Equatable {
+  public let id: Swift.String
+  public let url: Foundation.URL
+  public let data: Foundation.Data
+  public init(id: Swift.String, url: Foundation.URL, data: Foundation.Data)
+  public static func == (a: AdSDKCore.AssetResult, b: AdSDKCore.AssetResult) -> Swift.Bool
+}
+public protocol AssetRepository : AnyObject {
+  func loadAssets<T>(_ assets: [AdSDKCore.AssetRequest], stateSubject: Combine.PassthroughSubject<T, Swift.Never>) -> Combine.AnyPublisher<[AdSDKCore.AssetResult], AdSDKCore.AdError> where T : AdSDKCore.AssetRepositoryState
+}
+extension AdSDKCore.AdVisibilityPercentage : Swift.Equatable {}
+extension AdSDKCore.AdVisibilityPercentage : Swift.Hashable {}
+extension AdSDKCore.AdVisibilityPercentage : Swift.RawRepresentable {}

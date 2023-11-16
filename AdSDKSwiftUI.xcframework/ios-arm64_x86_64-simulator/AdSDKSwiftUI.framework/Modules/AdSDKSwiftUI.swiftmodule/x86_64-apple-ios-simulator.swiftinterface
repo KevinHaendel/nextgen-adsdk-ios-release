@@ -1,0 +1,32 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdSDKSwiftUI
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AdSDKCore
+@_exported import AdSDKSwiftUI
+import Combine
+import Foundation
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+extension AdSDKCore.AdService {
+  final public func registerNativeRenderers()
+  final public func getAdSDKSwiftUIVersion() -> Swift.String
+}
+extension SwiftUI.View {
+  public func adsContainer(width: CoreFoundation.CGFloat? = nil, height: CoreFoundation.CGFloat? = nil, alignment: SwiftUI.Alignment = .center) -> some SwiftUI.View
+  
+  public func adsContainer(minWidth: CoreFoundation.CGFloat? = nil, idealWidth: CoreFoundation.CGFloat? = nil, maxWidth: CoreFoundation.CGFloat? = nil, minHeight: CoreFoundation.CGFloat? = nil, idealHeight: CoreFoundation.CGFloat? = nil, maxHeight: CoreFoundation.CGFloat? = nil, alignment: SwiftUI.Alignment = .center) -> some SwiftUI.View
+  
+}
+extension AdSDKCore.AssetRequest : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+@_Concurrency.MainActor(unsafe) public struct AdView : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public init(advertisement: AdSDKCore.Advertisement)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12AdSDKSwiftUI0A4ViewV4bodyQrvp", 0) __
+}

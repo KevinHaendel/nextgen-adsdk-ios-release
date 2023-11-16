@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-    spec.name         = "AdSDK"
+    spec.name         = "AdSDKSwiftUI"
     spec.version      = "2.1.0"
     spec.summary      = "TODO"
     spec.description  = <<-DESC
@@ -9,6 +9,5 @@ Pod::Spec.new do |spec|
     spec.author       = { 'TODO' => 'TODO' }
     spec.platform     = :ios, "14.0"
     spec.source       = { :git => "https://github.com/KevinHaendel/nextgen-adsdk-ios-release", :tag => "#{spec.version}" }
-    spec.ios.vendored_frameworks = 'AdSDKCore.xcframework, AdSDKSwiftUI.xcframework'
-  end
-  
+    spec.ios.vendored_frameworks = 'AdSDKSwiftUI.xcframework'
+end

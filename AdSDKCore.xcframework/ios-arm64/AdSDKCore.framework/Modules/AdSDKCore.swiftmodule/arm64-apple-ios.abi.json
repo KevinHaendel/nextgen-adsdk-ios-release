@@ -32,6 +32,470 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "EventHandlerEvent",
+        "printedName": "EventHandlerEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "impression",
+            "printedName": "impression",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.EventHandlerEvent.Type) -> AdSDKCore.EventHandlerEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventHandlerEvent",
+                    "printedName": "AdSDKCore.EventHandlerEvent",
+                    "usr": "s:9AdSDKCore012EventHandlerC0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.EventHandlerEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore012EventHandlerC0O10impressionyA2CmF",
+            "mangledName": "$s9AdSDKCore012EventHandlerC0O10impressionyA2CmF",
+            "moduleName": "AdSDKCore"
+          },
+          {
+            "kind": "Var",
+            "name": "viewable",
+            "printedName": "viewable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.EventHandlerEvent.Type) -> (AdSDKCore.AdVisibilityPercentage) -> AdSDKCore.EventHandlerEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AdSDKCore.AdVisibilityPercentage) -> AdSDKCore.EventHandlerEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(percentage: AdSDKCore.AdVisibilityPercentage)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdVisibilityPercentage",
+                            "printedName": "AdSDKCore.AdVisibilityPercentage",
+                            "usr": "s:9AdSDKCore0A20VisibilityPercentageO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.EventHandlerEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore012EventHandlerC0O8viewableyAcA0A20VisibilityPercentageO_tcACmF",
+            "mangledName": "$s9AdSDKCore012EventHandlerC0O8viewableyAcA0A20VisibilityPercentageO_tcACmF",
+            "moduleName": "AdSDKCore"
+          },
+          {
+            "kind": "Var",
+            "name": "showingAsset",
+            "printedName": "showingAsset",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.EventHandlerEvent.Type) -> (Swift.String) -> AdSDKCore.EventHandlerEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> AdSDKCore.EventHandlerEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(id: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.EventHandlerEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore012EventHandlerC0O12showingAssetyACSS_tcACmF",
+            "mangledName": "$s9AdSDKCore012EventHandlerC0O12showingAssetyACSS_tcACmF",
+            "moduleName": "AdSDKCore"
+          },
+          {
+            "kind": "Var",
+            "name": "tap",
+            "printedName": "tap",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.EventHandlerEvent.Type) -> AdSDKCore.EventHandlerEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventHandlerEvent",
+                    "printedName": "AdSDKCore.EventHandlerEvent",
+                    "usr": "s:9AdSDKCore012EventHandlerC0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.EventHandlerEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore012EventHandlerC0O3tapyA2CmF",
+            "mangledName": "$s9AdSDKCore012EventHandlerC0O3tapyA2CmF",
+            "moduleName": "AdSDKCore"
+          },
+          {
+            "kind": "Var",
+            "name": "tapWithNoBrowser",
+            "printedName": "tapWithNoBrowser",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.EventHandlerEvent.Type) -> (AdSDKCore.TapURL) -> AdSDKCore.EventHandlerEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AdSDKCore.TapURL) -> AdSDKCore.EventHandlerEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TapURL",
+                        "printedName": "AdSDKCore.TapURL",
+                        "usr": "s:9AdSDKCore6TapURLV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.EventHandlerEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore012EventHandlerC0O16tapWithNoBrowseryAcA6TapURLVcACmF",
+            "mangledName": "$s9AdSDKCore012EventHandlerC0O16tapWithNoBrowseryAcA6TapURLVcACmF",
+            "moduleName": "AdSDKCore"
+          },
+          {
+            "kind": "Var",
+            "name": "tapURL",
+            "printedName": "tapURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.EventHandlerEvent.Type) -> (AdSDKCore.TapURL) -> AdSDKCore.EventHandlerEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AdSDKCore.TapURL) -> AdSDKCore.EventHandlerEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TapURL",
+                        "printedName": "AdSDKCore.TapURL",
+                        "usr": "s:9AdSDKCore6TapURLV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.EventHandlerEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore012EventHandlerC0O6tapURLyAcA03TapF0VcACmF",
+            "mangledName": "$s9AdSDKCore012EventHandlerC0O6tapURLyAcA03TapF0VcACmF",
+            "moduleName": "AdSDKCore"
+          },
+          {
+            "kind": "Var",
+            "name": "tapAsset",
+            "printedName": "tapAsset",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.EventHandlerEvent.Type) -> (Swift.String) -> AdSDKCore.EventHandlerEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> AdSDKCore.EventHandlerEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(id: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.EventHandlerEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore012EventHandlerC0O8tapAssetyACSS_tcACmF",
+            "mangledName": "$s9AdSDKCore012EventHandlerC0O8tapAssetyACSS_tcACmF",
+            "moduleName": "AdSDKCore"
+          },
+          {
+            "kind": "Var",
+            "name": "customRendererEvent",
+            "printedName": "customRendererEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.EventHandlerEvent.Type) -> (Swift.String, Foundation.URL) -> AdSDKCore.EventHandlerEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Foundation.URL) -> AdSDKCore.EventHandlerEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(name: Swift.String, url: Foundation.URL)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.EventHandlerEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventHandlerEvent",
+                        "printedName": "AdSDKCore.EventHandlerEvent",
+                        "usr": "s:9AdSDKCore012EventHandlerC0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore012EventHandlerC0O014customRendererC0yACSS_10Foundation3URLVtcACmF",
+            "mangledName": "$s9AdSDKCore012EventHandlerC0O014customRendererC0yACSS_10Foundation3URLVtcACmF",
+            "moduleName": "AdSDKCore"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventHandlerEvent",
+                "printedName": "AdSDKCore.EventHandlerEvent",
+                "usr": "s:9AdSDKCore012EventHandlerC0O"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventHandlerEvent",
+                "printedName": "AdSDKCore.EventHandlerEvent",
+                "usr": "s:9AdSDKCore012EventHandlerC0O"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AdSDKCore012EventHandlerC0O2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9AdSDKCore012EventHandlerC0O2eeoiySbAC_ACtFZ",
+            "moduleName": "AdSDKCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AdSDKCore012EventHandlerC0O",
+        "mangledName": "$s9AdSDKCore012EventHandlerC0O",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1489,6 +1953,36 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "triggerAdEvent",
+            "printedName": "triggerAdEvent(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventHandlerEvent",
+                "printedName": "AdSDKCore.EventHandlerEvent",
+                "usr": "s:9AdSDKCore012EventHandlerC0O"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AdSDKCore13AdvertisementP07triggerA5Event5eventyAA0e7HandlerE0O_tF",
+            "mangledName": "$s9AdSDKCore13AdvertisementP07triggerA5Event5eventyAA0e7HandlerE0O_tF",
+            "moduleName": "AdSDKCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdSDKCore.Advertisement>",
+            "sugared_genericSig": "<Self where Self : AdSDKCore.Advertisement>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -2578,7 +3072,7 @@
           {
             "kind": "Function",
             "name": "configure",
-            "printedName": "configure()",
+            "printedName": "configure(timeout:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2599,11 +3093,18 @@
                   }
                 ],
                 "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9AdSDKCore0A7ServiceC9configure7Combine12AnyPublisherVys5NeverOAA0A5ErrorOGyF",
-            "mangledName": "$s9AdSDKCore0A7ServiceC9configure7Combine12AnyPublisherVys5NeverOAA0A5ErrorOGyF",
+            "usr": "s:9AdSDKCore0A7ServiceC9configure7timeout7Combine12AnyPublisherVys5NeverOAA0A5ErrorOGSi_tF",
+            "mangledName": "$s9AdSDKCore0A7ServiceC9configure7timeout7Combine12AnyPublisherVys5NeverOAA0A5ErrorOGSi_tF",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "Final",
@@ -2615,17 +3116,24 @@
           {
             "kind": "Function",
             "name": "configure",
-            "printedName": "configure()",
+            "printedName": "configure(timeout:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9AdSDKCore0A7ServiceC9configureyyYaKF",
-            "mangledName": "$s9AdSDKCore0A7ServiceC9configureyyYaKF",
+            "usr": "s:9AdSDKCore0A7ServiceC9configure7timeoutySi_tYaKF",
+            "mangledName": "$s9AdSDKCore0A7ServiceC9configure7timeoutySi_tYaKF",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "Final",
@@ -5409,6 +5917,59 @@
           },
           {
             "kind": "Var",
+            "name": "tapWithNoBrowser",
+            "printedName": "tapWithNoBrowser",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.AdControllerEvent.Type) -> (AdSDKCore.TapURL) -> AdSDKCore.AdControllerEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AdSDKCore.TapURL) -> AdSDKCore.AdControllerEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdControllerEvent",
+                        "printedName": "AdSDKCore.AdControllerEvent",
+                        "usr": "s:9AdSDKCore0A15ControllerEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TapURL",
+                        "printedName": "AdSDKCore.TapURL",
+                        "usr": "s:9AdSDKCore6TapURLV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.AdControllerEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdControllerEvent",
+                        "printedName": "AdSDKCore.AdControllerEvent",
+                        "usr": "s:9AdSDKCore0A15ControllerEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore0A15ControllerEventO16tapWithNoBrowseryAcA6TapURLVcACmF",
+            "mangledName": "$s9AdSDKCore0A15ControllerEventO16tapWithNoBrowseryAcA6TapURLVcACmF",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "tapURL",
             "printedName": "tapURL",
             "children": [
@@ -6621,7 +7182,7 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/EventHandler\/EventHandlerImpl.swift",
       "kind": "Array",
-      "offset": 7881,
+      "offset": 8196,
       "length": 17,
       "value": "[\"https\", \"http\"]"
     },
@@ -6747,63 +7308,63 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10046,
+      "offset": 10257,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10143,
+      "offset": 10354,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10247,
+      "offset": 10458,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10046,
+      "offset": 10257,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10143,
+      "offset": 10354,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10247,
+      "offset": 10458,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10046,
+      "offset": 10257,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10143,
+      "offset": 10354,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10247,
+      "offset": 10458,
       "length": 3,
       "value": "100"
     },
@@ -6953,6 +7514,20 @@
       "offset": 1428,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/AdService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2855,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/AdService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3493,
+      "length": 2,
+      "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Logger\/Logger.swift",

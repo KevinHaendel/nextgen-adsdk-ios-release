@@ -11,6 +11,17 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+public enum EventHandlerEvent : Swift.Equatable {
+  case impression
+  case viewable(percentage: AdSDKCore.AdVisibilityPercentage)
+  case showingAsset(id: Swift.String)
+  case tap
+  case tapWithNoBrowser(_: AdSDKCore.TapURL)
+  case tapURL(_: AdSDKCore.TapURL)
+  case tapAsset(id: Swift.String)
+  case customRendererEvent(name: Swift.String, url: Foundation.URL)
+  public static func == (a: AdSDKCore.EventHandlerEvent, b: AdSDKCore.EventHandlerEvent) -> Swift.Bool
+}
 public struct AdMetadata {
   public let networkId: Swift.Int
   public let campaignId: Swift.String
@@ -38,6 +49,7 @@ public protocol Advertisement : AnyObject {
   func reload()
   func handleVisibility(_ visibility: AdSDKCore.AdVisibilityPercentage)
   func triggerAdClick(url: Swift.String?)
+  func triggerAdEvent(event: AdSDKCore.EventHandlerEvent)
 }
 public enum AdState {
   case loading
@@ -72,9 +84,9 @@ public enum AdVisibilityPercentage : Swift.Int {
   @objc deinit
 }
 extension AdSDKCore.AdService {
-  final public func configure() -> Combine.AnyPublisher<Swift.Never, AdSDKCore.AdError>
+  final public func configure(timeout: Swift.Int = 60) -> Combine.AnyPublisher<Swift.Never, AdSDKCore.AdError>
   #if compiler(>=5.3) && $AsyncAwait
-  final public func configure() async throws
+  final public func configure(timeout: Swift.Int = 60) async throws
   #endif
   final public func registerRenderer<T>(_ renderer: T.Type, forName name: Swift.String) where T : AdSDKCore.AdRenderer
   final public func unregisterRenderer(forName name: Swift.String)
@@ -159,6 +171,7 @@ public enum AdControllerState : AdSDKCore.AssetRepositoryState {
 public enum AdControllerEvent : Swift.Equatable {
   case tapAsset(id: Swift.String)
   case tap
+  case tapWithNoBrowser(_: AdSDKCore.TapURL)
   case tapURL(_: AdSDKCore.TapURL)
   case showingAsset(id: Swift.String)
   case customRendererEvent(name: Swift.String, url: Foundation.URL)

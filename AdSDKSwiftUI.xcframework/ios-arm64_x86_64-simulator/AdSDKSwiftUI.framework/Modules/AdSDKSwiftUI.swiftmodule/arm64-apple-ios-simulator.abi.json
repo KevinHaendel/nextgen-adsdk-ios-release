@@ -16,6 +16,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -323,6 +330,108 @@
         "name": "AdService",
         "printedName": "AdService",
         "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(networkID:cacheSize:timeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<AdSDKCore.AdService, AdSDKCore.AdError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdService",
+                    "printedName": "AdSDKCore.AdService",
+                    "usr": "s:9AdSDKCore0A7ServiceC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdError",
+                    "printedName": "AdSDKCore.AdError",
+                    "usr": "s:9AdSDKCore0A5ErrorO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "hasDefaultArg": true,
+                "usr": "s:s5UInt8V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AdSDKCore0A7ServiceC0A10SDKSwiftUIE9configure9networkID9cacheSize7timeout7Combine12AnyPublisherVyAcA0A5ErrorOGSu_s5UInt8VSitFZ",
+            "mangledName": "$s9AdSDKCore0A7ServiceC0A10SDKSwiftUIE9configure9networkID9cacheSize7timeout7Combine12AnyPublisherVyAcA0A5ErrorOGSu_s5UInt8VSitFZ",
+            "moduleName": "AdSDKSwiftUI",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(networkID:cacheSize:timeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdService",
+                "printedName": "AdSDKCore.AdService",
+                "usr": "s:9AdSDKCore0A7ServiceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "hasDefaultArg": true,
+                "usr": "s:s5UInt8V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AdSDKCore0A7ServiceC0A10SDKSwiftUIE9configure9networkID9cacheSize7timeoutACSu_s5UInt8VSitYaKFZ",
+            "mangledName": "$s9AdSDKCore0A7ServiceC0A10SDKSwiftUIE9configure9networkID9cacheSize7timeoutACSu_s5UInt8VSitYaKFZ",
+            "moduleName": "AdSDKSwiftUI",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Function",
             "name": "registerNativeRenderers",
@@ -663,15 +772,43 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/AdService+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 632,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/AdService+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/AdService+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1484,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/AdService+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1504,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/AdService+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 857,
+      "offset": 2471,
       "length": 11,
       "value": "\"nativeimg\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/AdService+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 857,
+      "offset": 2471,
       "length": 11,
       "value": "\"nativeimg\""
     },

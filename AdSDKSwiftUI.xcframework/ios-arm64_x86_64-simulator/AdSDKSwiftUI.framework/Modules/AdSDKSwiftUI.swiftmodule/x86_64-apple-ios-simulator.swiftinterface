@@ -11,6 +11,10 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 extension AdSDKCore.AdService {
+  public static func configure(networkID: Swift.UInt, cacheSize: Swift.UInt8 = 100, timeout: Swift.Int = 60) -> Combine.AnyPublisher<AdSDKCore.AdService, AdSDKCore.AdError>
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func configure(networkID: Swift.UInt, cacheSize: Swift.UInt8 = 100, timeout: Swift.Int = 60) async throws -> AdSDKCore.AdService
+  #endif
   final public func registerNativeRenderers()
   final public func getAdSDKSwiftUIVersion() -> Swift.String
 }

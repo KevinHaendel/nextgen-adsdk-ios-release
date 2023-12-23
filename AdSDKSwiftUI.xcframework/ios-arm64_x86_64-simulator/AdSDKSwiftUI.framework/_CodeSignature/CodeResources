@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nTvm+eI6wKV1PEYTqY9fVj1ulZ0=
+		Vgu991vU5kU0Xx2nl0FvtltLYWg=
 		</data>
 		<key>Modules/AdSDKSwiftUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		x6vPLvL48QAkWRg4bvqzENn+4Ak=
+		oZPyQRdSCEQSIub+Sm10GQlgKMo=
 		</data>
 		<key>Modules/AdSDKSwiftUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/AdSDKSwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		1UUJmPx97lJvvYtBZkyyX5i9J1w=
+		WXFN5YDcmDTFEDi8fHWYk0e5EW0=
 		</data>
 		<key>Modules/AdSDKSwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/AdSDKSwiftUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		x6vPLvL48QAkWRg4bvqzENn+4Ak=
+		oZPyQRdSCEQSIub+Sm10GQlgKMo=
 		</data>
 		<key>Modules/AdSDKSwiftUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/AdSDKSwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4mzDO1aM4mK1sjdPxhiCFLdaudU=
+		NyhZ8jcl3uGvf8PXcvg46OrCXwE=
 		</data>
 		<key>Modules/AdSDKSwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8owUcZ9Hc8RetIPMP8vNZlK8uH3YGn7FNe62DK7aRKA=
+			ao4v1zMEbkUDLJhxSodu3S/8TxUTIBmN7jGPCxbBYHc=
 			</data>
 		</dict>
 		<key>Modules/AdSDKSwiftUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IpH8jELwsrr+VADdxTwwBkCi4ZbeuJZn9f8ySbLcfic=
+			2C2sklVAPwZcFWziemohszeUJzV3jGCNjC5zwr1koR8=
 			</data>
 		</dict>
 		<key>Modules/AdSDKSwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8owUcZ9Hc8RetIPMP8vNZlK8uH3YGn7FNe62DK7aRKA=
+			ao4v1zMEbkUDLJhxSodu3S/8TxUTIBmN7jGPCxbBYHc=
 			</data>
 		</dict>
 		<key>Modules/AdSDKSwiftUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -130,7 +130,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0z1CRqfNPyEcTh1Kecd5jTa7E8GTMBrCgrFZ4TZa2kE=
+			OB+GY37Z19J/TVtv5MFrxYUJk28N3EE8UPE2Ip4I+4Q=
 			</data>
 		</dict>
 		<key>Modules/AdSDKSwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>

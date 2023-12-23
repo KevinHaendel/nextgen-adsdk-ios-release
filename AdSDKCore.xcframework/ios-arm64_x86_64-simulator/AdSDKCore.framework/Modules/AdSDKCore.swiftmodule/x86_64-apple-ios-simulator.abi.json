@@ -829,7 +829,6 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -863,6 +862,61 @@
                 "moduleName": "AdSDKCore",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataV3extSDySSypGvs",
+                "mangledName": "$s9AdSDKCore0A8MetadataV3extSDySSypGvs",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataV3extSDySSypGvM",
+                "mangledName": "$s9AdSDKCore0A8MetadataV3extSDySSypGvM",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -7189,14 +7243,14 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 3177,
+      "offset": 3445,
       "length": 6,
       "value": "\"body\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 3205,
+      "offset": 3473,
       "length": 5,
       "value": "\"ext\""
     },
@@ -7378,7 +7432,7 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/NetworkProvider\/ReachabilityManager\/ReachabilityManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 765,
+      "offset": 888,
       "length": 39,
       "value": "\"adsdk.core.reachability.manager.queue\""
     },
@@ -7511,21 +7565,21 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/AdService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1428,
+      "offset": 1683,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/AdService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2855,
+      "offset": 3110,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/AdService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3493,
+      "offset": 3756,
       "length": 2,
       "value": "60"
     },

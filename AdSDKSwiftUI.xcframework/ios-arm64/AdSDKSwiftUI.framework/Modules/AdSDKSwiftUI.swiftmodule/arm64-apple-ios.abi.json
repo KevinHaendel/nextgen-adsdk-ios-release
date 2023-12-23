@@ -426,7 +426,8 @@
             "moduleName": "AdSDKSwiftUI",
             "static": true,
             "declAttributes": [
-              "Final"
+              "Final",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "throwing": true,
@@ -773,42 +774,42 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/AdService+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 632,
+      "offset": 1191,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/AdService+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 652,
+      "offset": 1219,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/AdService+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 1484,
+      "offset": 2913,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/AdService+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 1504,
+      "offset": 2941,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/AdService+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 2471,
+      "offset": 3913,
       "length": 11,
       "value": "\"nativeimg\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/AdService+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 2471,
+      "offset": 3913,
       "length": 11,
       "value": "\"nativeimg\""
     },

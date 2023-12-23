@@ -28,7 +28,7 @@ public struct AdMetadata {
   public let bannerId: Swift.String
   public let adType: Swift.String
   public let adName: Swift.String?
-  public let ext: [Swift.String : Any]
+  public var ext: [Swift.String : Any]
   public var rendererMetadata: [Swift.String : Any]? {
     get
   }

@@ -4,6 +4,8 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AdSDKCore
 import Combine
+import CommonCrypto
+import CryptoKit
 import Foundation
 import Network
 import Swift
@@ -22,17 +24,17 @@ public enum EventHandlerEvent : Swift.Equatable {
   case customRendererEvent(name: Swift.String, url: Foundation.URL)
   public static func == (a: AdSDKCore.EventHandlerEvent, b: AdSDKCore.EventHandlerEvent) -> Swift.Bool
 }
-public struct AdMetadata {
-  public let networkId: Swift.Int
-  public let campaignId: Swift.String
-  public let bannerId: Swift.String
-  public let adType: Swift.String
-  public let adName: Swift.String?
-  public var ext: [Swift.String : Any]
-  public var rendererMetadata: [Swift.String : Any]? {
-    get
-  }
-  public init(networkId: Swift.Int, campaignId: Swift.String, bannerId: Swift.String, adType: Swift.String, adName: Swift.String?, rawResponse: Foundation.Data, rendererMetadata: [Swift.String : Any]? = nil) throws
+final public class AdMetadata {
+  final public var networkId: Swift.Int
+  final public var campaignId: Swift.String
+  final public var bannerId: Swift.String
+  final public var adType: Swift.String
+  final public var adName: Swift.String?
+  final public var aspectRatio: Swift.Double?
+  final public var ext: [Swift.String : Any]
+  final public var rendererMetadata: [Swift.String : Any]?
+  public init(networkId: Swift.Int, campaignId: Swift.String, bannerId: Swift.String, adType: Swift.String, adName: Swift.String?, aspectRatio: Swift.Double?, rawResponse: Foundation.Data, rendererMetadata: [Swift.String : Any]? = nil)
+  @objc deinit
 }
 public struct AdRequest : Swift.Equatable {
   public init(contentUnit: Swift.UInt, profile: [Swift.String : Swift.String]? = nil, keywords: [Swift.String]? = nil, window: Swift.UInt32? = nil, timeoutAfterSeconds: Swift.Int? = nil, gdprPd: Swift.String? = nil)
@@ -165,7 +167,7 @@ extension AdSDKCore.TagRequest {
 }
 public enum AdControllerState : AdSDKCore.AssetRepositoryState {
   case caching
-  case readyToPresent(metadata: [Swift.String : Any]? = nil)
+  case readyToPresent
   case error(_: Swift.Error)
 }
 public enum AdControllerEvent : Swift.Equatable {
@@ -181,7 +183,7 @@ public protocol AdController : AnyObject {
   associatedtype Renderer : AdSDKCore.AdRenderer where Self == Self.Renderer.Controller
   var state: Combine.AnyPublisher<AdSDKCore.AdControllerState, Swift.Never> { get }
   var event: Combine.AnyPublisher<AdSDKCore.AdControllerEvent, Swift.Never> { get }
-  init(_ assetRepository: AdSDKCore.AssetRepository)
+  init(_ assetRepository: AdSDKCore.AssetRepository, _ metadata: AdSDKCore.AdMetadata)
   func update(_ data: Foundation.Data)
 }
 extension AdSDKCore.AdController {
@@ -200,11 +202,15 @@ public struct AssetResult : Swift.Equatable {
   public let id: Swift.String
   public let url: Foundation.URL
   public let data: Foundation.Data
-  public init(id: Swift.String, url: Foundation.URL, data: Foundation.Data)
+  public let path: Foundation.URL?
+  public init(id: Swift.String, url: Foundation.URL, data: Foundation.Data, path: Foundation.URL? = nil)
   public static func == (a: AdSDKCore.AssetResult, b: AdSDKCore.AssetResult) -> Swift.Bool
 }
 public protocol AssetRepository : AnyObject {
   func loadAssets<T>(_ assets: [AdSDKCore.AssetRequest], stateSubject: Combine.PassthroughSubject<T, Swift.Never>) -> Combine.AnyPublisher<[AdSDKCore.AssetResult], AdSDKCore.AdError> where T : AdSDKCore.AssetRepositoryState
+  func getCachedAsset(connectedURL: Foundation.URL) -> (Foundation.Data, Foundation.URL)?
+  @discardableResult
+  func setAssetIntoCache(_ data: Foundation.Data, connectedURL: Foundation.URL) -> Foundation.URL?
 }
 extension AdSDKCore.AdVisibilityPercentage : Swift.Equatable {}
 extension AdSDKCore.AdVisibilityPercentage : Swift.Hashable {}

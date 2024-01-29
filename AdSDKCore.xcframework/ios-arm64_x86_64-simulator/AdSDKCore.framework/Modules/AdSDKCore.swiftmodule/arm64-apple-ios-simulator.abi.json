@@ -567,15 +567,15 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9AdSDKCore0A8MetadataV9networkIdSivp",
-            "mangledName": "$s9AdSDKCore0A8MetadataV9networkIdSivp",
+            "usr": "s:9AdSDKCore0A8MetadataC9networkIdSivp",
+            "mangledName": "$s9AdSDKCore0A8MetadataC9networkIdSivp",
             "moduleName": "AdSDKCore",
             "declAttributes": [
+              "Final",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -591,11 +591,62 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AdSDKCore0A8MetadataV9networkIdSivg",
-                "mangledName": "$s9AdSDKCore0A8MetadataV9networkIdSivg",
+                "usr": "s:9AdSDKCore0A8MetadataC9networkIdSivg",
+                "mangledName": "$s9AdSDKCore0A8MetadataC9networkIdSivg",
                 "moduleName": "AdSDKCore",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC9networkIdSivs",
+                "mangledName": "$s9AdSDKCore0A8MetadataC9networkIdSivs",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC9networkIdSivM",
+                "mangledName": "$s9AdSDKCore0A8MetadataC9networkIdSivM",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -612,15 +663,15 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9AdSDKCore0A8MetadataV10campaignIdSSvp",
-            "mangledName": "$s9AdSDKCore0A8MetadataV10campaignIdSSvp",
+            "usr": "s:9AdSDKCore0A8MetadataC10campaignIdSSvp",
+            "mangledName": "$s9AdSDKCore0A8MetadataC10campaignIdSSvp",
             "moduleName": "AdSDKCore",
             "declAttributes": [
+              "Final",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -636,11 +687,62 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AdSDKCore0A8MetadataV10campaignIdSSvg",
-                "mangledName": "$s9AdSDKCore0A8MetadataV10campaignIdSSvg",
+                "usr": "s:9AdSDKCore0A8MetadataC10campaignIdSSvg",
+                "mangledName": "$s9AdSDKCore0A8MetadataC10campaignIdSSvg",
                 "moduleName": "AdSDKCore",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC10campaignIdSSvs",
+                "mangledName": "$s9AdSDKCore0A8MetadataC10campaignIdSSvs",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC10campaignIdSSvM",
+                "mangledName": "$s9AdSDKCore0A8MetadataC10campaignIdSSvM",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -657,15 +759,15 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9AdSDKCore0A8MetadataV8bannerIdSSvp",
-            "mangledName": "$s9AdSDKCore0A8MetadataV8bannerIdSSvp",
+            "usr": "s:9AdSDKCore0A8MetadataC8bannerIdSSvp",
+            "mangledName": "$s9AdSDKCore0A8MetadataC8bannerIdSSvp",
             "moduleName": "AdSDKCore",
             "declAttributes": [
+              "Final",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -681,11 +783,62 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AdSDKCore0A8MetadataV8bannerIdSSvg",
-                "mangledName": "$s9AdSDKCore0A8MetadataV8bannerIdSSvg",
+                "usr": "s:9AdSDKCore0A8MetadataC8bannerIdSSvg",
+                "mangledName": "$s9AdSDKCore0A8MetadataC8bannerIdSSvg",
                 "moduleName": "AdSDKCore",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC8bannerIdSSvs",
+                "mangledName": "$s9AdSDKCore0A8MetadataC8bannerIdSSvs",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC8bannerIdSSvM",
+                "mangledName": "$s9AdSDKCore0A8MetadataC8bannerIdSSvM",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -702,15 +855,15 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9AdSDKCore0A8MetadataV6adTypeSSvp",
-            "mangledName": "$s9AdSDKCore0A8MetadataV6adTypeSSvp",
+            "usr": "s:9AdSDKCore0A8MetadataC6adTypeSSvp",
+            "mangledName": "$s9AdSDKCore0A8MetadataC6adTypeSSvp",
             "moduleName": "AdSDKCore",
             "declAttributes": [
+              "Final",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -726,11 +879,62 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AdSDKCore0A8MetadataV6adTypeSSvg",
-                "mangledName": "$s9AdSDKCore0A8MetadataV6adTypeSSvg",
+                "usr": "s:9AdSDKCore0A8MetadataC6adTypeSSvg",
+                "mangledName": "$s9AdSDKCore0A8MetadataC6adTypeSSvg",
                 "moduleName": "AdSDKCore",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC6adTypeSSvs",
+                "mangledName": "$s9AdSDKCore0A8MetadataC6adTypeSSvs",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC6adTypeSSvM",
+                "mangledName": "$s9AdSDKCore0A8MetadataC6adTypeSSvM",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -755,15 +959,16 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9AdSDKCore0A8MetadataV6adNameSSSgvp",
-            "mangledName": "$s9AdSDKCore0A8MetadataV6adNameSSSgvp",
+            "usr": "s:9AdSDKCore0A8MetadataC6adNameSSSgvp",
+            "mangledName": "$s9AdSDKCore0A8MetadataC6adNameSSSgvp",
             "moduleName": "AdSDKCore",
             "declAttributes": [
+              "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -787,11 +992,191 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AdSDKCore0A8MetadataV6adNameSSSgvg",
-                "mangledName": "$s9AdSDKCore0A8MetadataV6adNameSSSgvg",
+                "usr": "s:9AdSDKCore0A8MetadataC6adNameSSSgvg",
+                "mangledName": "$s9AdSDKCore0A8MetadataC6adNameSSSgvg",
                 "moduleName": "AdSDKCore",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC6adNameSSSgvs",
+                "mangledName": "$s9AdSDKCore0A8MetadataC6adNameSSSgvs",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC6adNameSSSgvM",
+                "mangledName": "$s9AdSDKCore0A8MetadataC6adNameSSSgvM",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aspectRatio",
+            "printedName": "aspectRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdSDKCore0A8MetadataC11aspectRatioSdSgvp",
+            "mangledName": "$s9AdSDKCore0A8MetadataC11aspectRatioSdSgvp",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC11aspectRatioSdSgvg",
+                "mangledName": "$s9AdSDKCore0A8MetadataC11aspectRatioSdSgvg",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC11aspectRatioSdSgvs",
+                "mangledName": "$s9AdSDKCore0A8MetadataC11aspectRatioSdSgvs",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC11aspectRatioSdSgvM",
+                "mangledName": "$s9AdSDKCore0A8MetadataC11aspectRatioSdSgvM",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -821,10 +1206,11 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9AdSDKCore0A8MetadataV3extSDySSypGvp",
-            "mangledName": "$s9AdSDKCore0A8MetadataV3extSDySSypGvp",
+            "usr": "s:9AdSDKCore0A8MetadataC3extSDySSypGvp",
+            "mangledName": "$s9AdSDKCore0A8MetadataC3extSDySSypGvp",
             "moduleName": "AdSDKCore",
             "declAttributes": [
+              "Final",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
@@ -857,10 +1243,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AdSDKCore0A8MetadataV3extSDySSypGvg",
-                "mangledName": "$s9AdSDKCore0A8MetadataV3extSDySSypGvg",
+                "usr": "s:9AdSDKCore0A8MetadataC3extSDySSypGvg",
+                "mangledName": "$s9AdSDKCore0A8MetadataC3extSDySSypGvg",
                 "moduleName": "AdSDKCore",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -894,10 +1283,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AdSDKCore0A8MetadataV3extSDySSypGvs",
-                "mangledName": "$s9AdSDKCore0A8MetadataV3extSDySSypGvs",
+                "usr": "s:9AdSDKCore0A8MetadataC3extSDySSypGvs",
+                "mangledName": "$s9AdSDKCore0A8MetadataC3extSDySSypGvs",
                 "moduleName": "AdSDKCore",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -912,10 +1304,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AdSDKCore0A8MetadataV3extSDySSypGvM",
-                "mangledName": "$s9AdSDKCore0A8MetadataV3extSDySSypGvM",
+                "usr": "s:9AdSDKCore0A8MetadataC3extSDySSypGvM",
+                "mangledName": "$s9AdSDKCore0A8MetadataC3extSDySSypGvM",
                 "moduleName": "AdSDKCore",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -954,13 +1349,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9AdSDKCore0A8MetadataV08rendererC0SDySSypGSgvp",
-            "mangledName": "$s9AdSDKCore0A8MetadataV08rendererC0SDySSypGSgvp",
+            "usr": "s:9AdSDKCore0A8MetadataC08rendererC0SDySSypGSgvp",
+            "mangledName": "$s9AdSDKCore0A8MetadataC08rendererC0SDySSypGSgvp",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
-              "SetterAccess",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1000,24 +1395,96 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AdSDKCore0A8MetadataV08rendererC0SDySSypGSgvg",
-                "mangledName": "$s9AdSDKCore0A8MetadataV08rendererC0SDySSypGSgvg",
+                "usr": "s:9AdSDKCore0A8MetadataC08rendererC0SDySSypGSgvg",
+                "mangledName": "$s9AdSDKCore0A8MetadataC08rendererC0SDySSypGSgvg",
                 "moduleName": "AdSDKCore",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC08rendererC0SDySSypGSgvs",
+                "mangledName": "$s9AdSDKCore0A8MetadataC08rendererC0SDySSypGSgvs",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC08rendererC0SDySSypGSgvM",
+                "mangledName": "$s9AdSDKCore0A8MetadataC08rendererC0SDySSypGSgvM",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
               }
             ]
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(networkId:campaignId:bannerId:adType:adName:rawResponse:rendererMetadata:)",
+            "printedName": "init(networkId:campaignId:bannerId:adType:adName:aspectRatio:rawResponse:rendererMetadata:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "AdMetadata",
                 "printedName": "AdSDKCore.AdMetadata",
-                "usr": "s:9AdSDKCore0A8MetadataV"
+                "usr": "s:9AdSDKCore0A8MetadataC"
               },
               {
                 "kind": "TypeNominal",
@@ -1059,6 +1526,20 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Data",
                 "printedName": "Foundation.Data",
                 "usr": "s:10Foundation4DataV"
@@ -1093,22 +1574,22 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9AdSDKCore0A8MetadataV9networkId08campaignE006bannerE06adType0H4Name11rawResponse08rendererC0ACSi_S4SSg10Foundation4DataVSDySSypGSgtKcfc",
-            "mangledName": "$s9AdSDKCore0A8MetadataV9networkId08campaignE006bannerE06adType0H4Name11rawResponse08rendererC0ACSi_S4SSg10Foundation4DataVSDySSypGSgtKcfc",
+            "usr": "s:9AdSDKCore0A8MetadataC9networkId08campaignE006bannerE06adType0H4Name11aspectRatio11rawResponse08rendererC0ACSi_S4SSgSdSg10Foundation4DataVSDySSypGSgtcfc",
+            "mangledName": "$s9AdSDKCore0A8MetadataC9networkId08campaignE006bannerE06adType0H4Name11aspectRatio11rawResponse08rendererC0ACSi_S4SSgSdSg10Foundation4DataVSDySSypGSgtcfc",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ],
-            "throwing": true,
             "init_kind": "Designated"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:9AdSDKCore0A8MetadataV",
-        "mangledName": "$s9AdSDKCore0A8MetadataV",
+        "declKind": "Class",
+        "usr": "s:9AdSDKCore0A8MetadataC",
+        "mangledName": "$s9AdSDKCore0A8MetadataC",
         "moduleName": "AdSDKCore",
         "declAttributes": [
+          "Final",
           "AccessControl",
           "RawDocComment"
         ]
@@ -1461,6 +1942,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -1495,15 +1986,15 @@
                     "kind": "TypeNominal",
                     "name": "AdMetadata",
                     "printedName": "AdSDKCore.AdMetadata",
-                    "usr": "s:9AdSDKCore0A8MetadataV"
+                    "usr": "s:9AdSDKCore0A8MetadataC"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9AdSDKCore13AdvertisementP8metadataAA0A8MetadataVSgvp",
-            "mangledName": "$s9AdSDKCore13AdvertisementP8metadataAA0A8MetadataVSgvp",
+            "usr": "s:9AdSDKCore13AdvertisementP8metadataAA0A8MetadataCSgvp",
+            "mangledName": "$s9AdSDKCore13AdvertisementP8metadataAA0A8MetadataCSgvp",
             "moduleName": "AdSDKCore",
             "protocolReq": true,
             "declAttributes": [
@@ -1524,15 +2015,15 @@
                         "kind": "TypeNominal",
                         "name": "AdMetadata",
                         "printedName": "AdSDKCore.AdMetadata",
-                        "usr": "s:9AdSDKCore0A8MetadataV"
+                        "usr": "s:9AdSDKCore0A8MetadataC"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AdSDKCore13AdvertisementP8metadataAA0A8MetadataVSgvg",
-                "mangledName": "$s9AdSDKCore13AdvertisementP8metadataAA0A8MetadataVSgvg",
+                "usr": "s:9AdSDKCore13AdvertisementP8metadataAA0A8MetadataCSgvg",
+                "mangledName": "$s9AdSDKCore13AdvertisementP8metadataAA0A8MetadataCSgvg",
                 "moduleName": "AdSDKCore",
                 "genericSig": "<τ_0_0 where τ_0_0 : AdSDKCore.Advertisement>",
                 "sugared_genericSig": "<Self where Self : AdSDKCore.Advertisement>",
@@ -2165,7 +2656,7 @@
                             "kind": "TypeNominal",
                             "name": "AdMetadata",
                             "printedName": "AdSDKCore.AdMetadata",
-                            "usr": "s:9AdSDKCore0A8MetadataV"
+                            "usr": "s:9AdSDKCore0A8MetadataC"
                           }
                         ]
                       }
@@ -2188,8 +2679,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9AdSDKCore0A5StateO14readyToPresentyAcA0A8MetadataV_tcACmF",
-            "mangledName": "$s9AdSDKCore0A5StateO14readyToPresentyAcA0A8MetadataV_tcACmF",
+            "usr": "s:9AdSDKCore0A5StateO14readyToPresentyAcA0A8MetadataC_tcACmF",
+            "mangledName": "$s9AdSDKCore0A5StateO14readyToPresentyAcA0A8MetadataC_tcACmF",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "RawDocComment"
@@ -2299,7 +2790,7 @@
                             "kind": "TypeNominal",
                             "name": "AdMetadata",
                             "printedName": "AdSDKCore.AdMetadata",
-                            "usr": "s:9AdSDKCore0A8MetadataV"
+                            "usr": "s:9AdSDKCore0A8MetadataC"
                           }
                         ]
                       }
@@ -2322,8 +2813,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9AdSDKCore0A5EventO3tapyAC10Foundation3URLV_AA0A8MetadataVtcACmF",
-            "mangledName": "$s9AdSDKCore0A5EventO3tapyAC10Foundation3URLV_AA0A8MetadataVtcACmF",
+            "usr": "s:9AdSDKCore0A5EventO3tapyAC10Foundation3URLV_AA0A8MetadataCtcACmF",
+            "mangledName": "$s9AdSDKCore0A5EventO3tapyAC10Foundation3URLV_AA0A8MetadataCtcACmF",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "RawDocComment"
@@ -2365,7 +2856,7 @@
                             "kind": "TypeNominal",
                             "name": "AdMetadata",
                             "printedName": "AdSDKCore.AdMetadata",
-                            "usr": "s:9AdSDKCore0A8MetadataV"
+                            "usr": "s:9AdSDKCore0A8MetadataC"
                           }
                         ]
                       }
@@ -2388,8 +2879,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9AdSDKCore0A5EventO10impressionyAC10Foundation3URLV_AA0A8MetadataVtcACmF",
-            "mangledName": "$s9AdSDKCore0A5EventO10impressionyAC10Foundation3URLV_AA0A8MetadataVtcACmF",
+            "usr": "s:9AdSDKCore0A5EventO10impressionyAC10Foundation3URLV_AA0A8MetadataCtcACmF",
+            "mangledName": "$s9AdSDKCore0A5EventO10impressionyAC10Foundation3URLV_AA0A8MetadataCtcACmF",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "RawDocComment"
@@ -2437,7 +2928,7 @@
                             "kind": "TypeNominal",
                             "name": "AdMetadata",
                             "printedName": "AdSDKCore.AdMetadata",
-                            "usr": "s:9AdSDKCore0A8MetadataV"
+                            "usr": "s:9AdSDKCore0A8MetadataC"
                           }
                         ]
                       }
@@ -2460,8 +2951,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9AdSDKCore0A5EventO8viewableyAcA0A20VisibilityPercentageO_10Foundation3URLVAA0A8MetadataVtcACmF",
-            "mangledName": "$s9AdSDKCore0A5EventO8viewableyAcA0A20VisibilityPercentageO_10Foundation3URLVAA0A8MetadataVtcACmF",
+            "usr": "s:9AdSDKCore0A5EventO8viewableyAcA0A20VisibilityPercentageO_10Foundation3URLVAA0A8MetadataCtcACmF",
+            "mangledName": "$s9AdSDKCore0A5EventO8viewableyAcA0A20VisibilityPercentageO_10Foundation3URLVAA0A8MetadataCtcACmF",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "RawDocComment"
@@ -2509,7 +3000,7 @@
                             "kind": "TypeNominal",
                             "name": "AdMetadata",
                             "printedName": "AdSDKCore.AdMetadata",
-                            "usr": "s:9AdSDKCore0A8MetadataV"
+                            "usr": "s:9AdSDKCore0A8MetadataC"
                           }
                         ]
                       }
@@ -2532,8 +3023,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9AdSDKCore0A5EventO12showingAssetyACSS_10Foundation3URLVAA0A8MetadataVtcACmF",
-            "mangledName": "$s9AdSDKCore0A5EventO12showingAssetyACSS_10Foundation3URLVAA0A8MetadataVtcACmF",
+            "usr": "s:9AdSDKCore0A5EventO12showingAssetyACSS_10Foundation3URLVAA0A8MetadataCtcACmF",
+            "mangledName": "$s9AdSDKCore0A5EventO12showingAssetyACSS_10Foundation3URLVAA0A8MetadataCtcACmF",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "RawDocComment"
@@ -2581,7 +3072,7 @@
                             "kind": "TypeNominal",
                             "name": "AdMetadata",
                             "printedName": "AdSDKCore.AdMetadata",
-                            "usr": "s:9AdSDKCore0A8MetadataV"
+                            "usr": "s:9AdSDKCore0A8MetadataC"
                           }
                         ]
                       }
@@ -2604,8 +3095,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9AdSDKCore0A5EventO014customRendererC0yACSS_10Foundation3URLVAA0A8MetadataVtcACmF",
-            "mangledName": "$s9AdSDKCore0A5EventO014customRendererC0yACSS_10Foundation3URLVAA0A8MetadataVtcACmF",
+            "usr": "s:9AdSDKCore0A5EventO014customRendererC0yACSS_10Foundation3URLVAA0A8MetadataCtcACmF",
+            "mangledName": "$s9AdSDKCore0A5EventO014customRendererC0yACSS_10Foundation3URLVAA0A8MetadataCtcACmF",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "RawDocComment"
@@ -5427,6 +5918,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -5651,6 +6152,20 @@
       },
       {
         "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5719,54 +6234,13 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(AdSDKCore.AdControllerState.Type) -> ([Swift.String : Any]?) -> AdSDKCore.AdControllerState",
+                "printedName": "(AdSDKCore.AdControllerState.Type) -> AdSDKCore.AdControllerState",
                 "children": [
                   {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "([Swift.String : Any]?) -> AdSDKCore.AdControllerState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AdControllerState",
-                        "printedName": "AdSDKCore.AdControllerState",
-                        "usr": "s:9AdSDKCore0A15ControllerStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(metadata: [Swift.String : Any]?)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "[Swift.String : Any]?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Dictionary",
-                                "printedName": "[Swift.String : Any]",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "String",
-                                    "printedName": "Swift.String",
-                                    "usr": "s:SS"
-                                  },
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "ProtocolComposition",
-                                    "printedName": "Any"
-                                  }
-                                ],
-                                "usr": "s:SD"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          }
-                        ]
-                      }
-                    ]
+                    "kind": "TypeNominal",
+                    "name": "AdControllerState",
+                    "printedName": "AdSDKCore.AdControllerState",
+                    "usr": "s:9AdSDKCore0A15ControllerStateO"
                   },
                   {
                     "kind": "TypeNominal",
@@ -5785,8 +6259,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:9AdSDKCore0A15ControllerStateO14readyToPresentyACSDySSypGSg_tcACmF",
-            "mangledName": "$s9AdSDKCore0A15ControllerStateO14readyToPresentyACSDySSypGSg_tcACmF",
+            "usr": "s:9AdSDKCore0A15ControllerStateO14readyToPresentyA2CmF",
+            "mangledName": "$s9AdSDKCore0A15ControllerStateO14readyToPresentyA2CmF",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "RawDocComment"
@@ -6419,7 +6893,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(_:)",
+            "printedName": "init(_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6431,11 +6905,17 @@
                 "name": "AssetRepository",
                 "printedName": "AdSDKCore.AssetRepository",
                 "usr": "s:9AdSDKCore15AssetRepositoryP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdMetadata",
+                "printedName": "AdSDKCore.AdMetadata",
+                "usr": "s:9AdSDKCore0A8MetadataC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9AdSDKCore0A10ControllerPyxAA15AssetRepository_pcfc",
-            "mangledName": "$s9AdSDKCore0A10ControllerPyxAA15AssetRepository_pcfc",
+            "usr": "s:9AdSDKCore0A10ControllerPyxAA15AssetRepository_p_AA0A8MetadataCtcfc",
+            "mangledName": "$s9AdSDKCore0A10ControllerPyxAA15AssetRepository_p_AA0A8MetadataCtcfc",
             "moduleName": "AdSDKCore",
             "genericSig": "<τ_0_0 where τ_0_0 : AdSDKCore.AdController>",
             "sugared_genericSig": "<Self where Self : AdSDKCore.AdController>",
@@ -6939,9 +7419,70 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdSDKCore11AssetResultV4path10Foundation3URLVSgvp",
+            "mangledName": "$s9AdSDKCore11AssetResultV4path10Foundation3URLVSgvp",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore11AssetResultV4path10Foundation3URLVSgvg",
+                "mangledName": "$s9AdSDKCore11AssetResultV4path10Foundation3URLVSgvg",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:url:data:)",
+            "printedName": "init(id:url:data:path:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6966,11 +7507,26 @@
                 "name": "Data",
                 "printedName": "Foundation.Data",
                 "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9AdSDKCore11AssetResultV2id3url4dataACSS_10Foundation3URLVAG4DataVtcfc",
-            "mangledName": "$s9AdSDKCore11AssetResultV2id3url4dataACSS_10Foundation3URLVAG4DataVtcfc",
+            "usr": "s:9AdSDKCore11AssetResultV2id3url4data4pathACSS_10Foundation3URLVAH4DataVAJSgtcfc",
+            "mangledName": "$s9AdSDKCore11AssetResultV2id3url4data4pathACSS_10Foundation3URLVAH4DataVAJSgtcfc",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "AccessControl",
@@ -7113,6 +7669,104 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCachedAsset",
+            "printedName": "getCachedAsset(connectedURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(Foundation.Data, Foundation.URL)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data, Foundation.URL)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AdSDKCore15AssetRepositoryP09getCachedC012connectedURL10Foundation4DataV_AF0H0VtSgAJ_tF",
+            "mangledName": "$s9AdSDKCore15AssetRepositoryP09getCachedC012connectedURL10Foundation4DataV_AF0H0VtSgAJ_tF",
+            "moduleName": "AdSDKCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdSDKCore.AssetRepository>",
+            "sugared_genericSig": "<Self where Self : AdSDKCore.AssetRepository>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAssetIntoCache",
+            "printedName": "setAssetIntoCache(_:connectedURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AdSDKCore15AssetRepositoryP03setC9IntoCache_12connectedURL10Foundation0I0VSgAF4DataV_AHtF",
+            "mangledName": "$s9AdSDKCore15AssetRepositoryP03setC9IntoCache_12connectedURL10Foundation0I0VSgAF4DataV_AHtF",
+            "moduleName": "AdSDKCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdSDKCore.AssetRepository>",
+            "sugared_genericSig": "<Self where Self : AdSDKCore.AssetRepository>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -7235,22 +7889,29 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/EventHandler\/EventHandlerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2723,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/EventHandler\/EventHandlerImpl.swift",
       "kind": "Array",
-      "offset": 8196,
+      "offset": 8620,
       "length": 17,
       "value": "[\"https\", \"http\"]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdMetadata.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/AdMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 3445,
+      "offset": 3689,
       "length": 6,
       "value": "\"body\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdMetadata.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/AdMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 3473,
+      "offset": 3717,
       "length": 5,
       "value": "\"ext\""
     },
@@ -7362,63 +8023,63 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10257,
+      "offset": 10208,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10354,
+      "offset": 10305,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10458,
+      "offset": 10409,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10257,
+      "offset": 10208,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10354,
+      "offset": 10305,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10458,
+      "offset": 10409,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10257,
+      "offset": 10208,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10354,
+      "offset": 10305,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Advertisement.swift",
       "kind": "IntegerLiteral",
-      "offset": 10458,
+      "offset": 10409,
       "length": 3,
       "value": "100"
     },
@@ -7572,14 +8233,14 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/AdService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3110,
+      "offset": 3379,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/AdService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3756,
+      "offset": 4282,
       "length": 2,
       "value": "60"
     },
@@ -7607,205 +8268,212 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5474,
+      "offset": 4959,
       "length": 5,
       "value": "\"wpt\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5513,
+      "offset": 4998,
       "length": 5,
       "value": "\"sid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5548,
+      "offset": 5033,
       "length": 18,
       "value": "\"prf[_sdk_adtype]\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5598,
+      "offset": 5083,
       "length": 35,
       "value": "\"prf[_sdk_customnative_adrenderer]\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5662,
+      "offset": 5147,
       "length": 4,
       "value": "\"wi\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5696,
+      "offset": 5181,
       "length": 9,
       "value": "\"network\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5735,
+      "offset": 5220,
       "length": 4,
       "value": "\"kw\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5768,
+      "offset": 5253,
       "length": 8,
       "value": "\"optout\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5817,
+      "offset": 5302,
       "length": 6,
       "value": "\"gdpr\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5857,
+      "offset": 5342,
       "length": 14,
       "value": "\"gdpr_consent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5900,
+      "offset": 5385,
       "length": 9,
       "value": "\"gdpr_pd\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5943,
+      "offset": 5428,
       "length": 14,
       "value": "\"external_uid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5991,
+      "offset": 5476,
       "length": 12,
       "value": "\"uid_stable\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6258,
+      "offset": 5743,
       "length": 5,
       "value": "\"tid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6304,
+      "offset": 5789,
       "length": 5,
       "value": "\"sid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6343,
+      "offset": 5828,
       "length": 9,
       "value": "\"orderid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6384,
+      "offset": 5869,
       "length": 7,
       "value": "\"price\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6423,
+      "offset": 5908,
       "length": 7,
       "value": "\"total\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6465,
+      "offset": 5950,
       "length": 10,
       "value": "\"quantity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6512,
+      "offset": 5997,
       "length": 8,
       "value": "\"itemno\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6551,
+      "offset": 6036,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6595,
+      "offset": 6080,
       "length": 7,
       "value": "\"descr\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6668,
+      "offset": 6153,
       "length": 3,
       "value": "\"X\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6695,
+      "offset": 6180,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6720,
+      "offset": 6205,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6759,
+      "offset": 6244,
       "length": 7,
       "value": "\"image\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6789,
+      "offset": 6274,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6814,
+      "offset": 6299,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6841,
+      "offset": 6326,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/WebView\/WebViewImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 349,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/WebView\/WebViewImpl.swift",
@@ -7817,126 +8485,105 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 515,
+      "offset": 544,
       "length": 12,
       "value": "\"network_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 554,
+      "offset": 583,
       "length": 13,
       "value": "\"campaign_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 592,
+      "offset": 621,
       "length": 11,
       "value": "\"banner_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 626,
+      "offset": 655,
       "length": 9,
       "value": "\"ad_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 658,
+      "offset": 687,
       "length": 9,
       "value": "\"ad_name\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 690,
+      "offset": 719,
       "length": 11,
       "value": "\"click_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 515,
+      "offset": 544,
       "length": 12,
       "value": "\"network_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 554,
+      "offset": 583,
       "length": 13,
       "value": "\"campaign_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 592,
+      "offset": 621,
       "length": 11,
       "value": "\"banner_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 626,
+      "offset": 655,
       "length": 9,
       "value": "\"ad_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 658,
+      "offset": 687,
       "length": 9,
       "value": "\"ad_name\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 690,
+      "offset": 719,
       "length": 11,
       "value": "\"click_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "Array",
-      "offset": 2277,
+      "offset": 2721,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "Dictionary",
-      "offset": 2315,
+      "offset": 2759,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4301,
-      "length": 11,
-      "value": "\"nativeimg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 4331,
-      "length": 14,
-      "value": "\"customnative\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 4301,
-      "length": 11,
-      "value": "\"nativeimg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 4331,
+      "offset": 4715,
       "length": 14,
       "value": "\"customnative\""
     },
@@ -7990,72 +8637,79 @@
       "value": "\"1\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/AssetCache\/Helpers\/AssetFileManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7478,
+      "length": 23,
+      "value": "\"AdSDKCachedAssetsData\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/AssetCache\/AssetCacheImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 1653,
+      "offset": 5051,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/AssetCache\/AssetCacheImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 1681,
+      "offset": 5087,
       "length": 9,
       "value": "1000000"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Validator\/ValidatorImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3042,
+      "offset": 3066,
       "length": 32,
       "value": "\"^[A-Za-z_][A-Za-z0-9_-]{0,59}$\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Validator\/ValidatorImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3105,
+      "offset": 3129,
       "length": 26,
       "value": "\"^[A-Za-z0-9_~.-]{1,255}$\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Validator\/ValidatorImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3162,
+      "offset": 3186,
       "length": 26,
       "value": "\"^[A-Za-z0-9_~.-]{1,255}$\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Validator\/ValidatorImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3223,
+      "offset": 3247,
       "length": 20,
       "value": "\"^[A-Za-z0-9._=-]+$\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Validator\/ValidatorImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3277,
+      "offset": 3301,
       "length": 25,
       "value": "\"^[0-9a-zA-Z_-]{10,256}$\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Validator\/ValidatorImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3327,
+      "offset": 3351,
       "length": 29,
       "value": "\"^[0-9a-zA-Z_\\-.~]{1,8192}$\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Validator\/ValidatorImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3383,
+      "offset": 3407,
       "length": 29,
       "value": "\"^[0-9a-zA-Z_\\-.~]{0,8192}$\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Validator\/ValidatorImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3454,
+      "offset": 3478,
       "length": 28,
       "value": "\"^[0-9a-zA-Z_\\-.~]{1,255}$\""
     }

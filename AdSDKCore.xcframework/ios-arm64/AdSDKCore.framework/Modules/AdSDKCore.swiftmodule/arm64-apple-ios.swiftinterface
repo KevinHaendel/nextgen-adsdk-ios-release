@@ -153,6 +153,7 @@ public struct TapURL : Swift.Equatable {
   public let url: Foundation.URL
   public let rawURL: Swift.String
   public init(_ rawURL: Swift.String) throws
+  public init(_ url: Foundation.URL)
   public static func == (a: AdSDKCore.TapURL, b: AdSDKCore.TapURL) -> Swift.Bool
 }
 public struct TagRequest : Swift.Equatable {

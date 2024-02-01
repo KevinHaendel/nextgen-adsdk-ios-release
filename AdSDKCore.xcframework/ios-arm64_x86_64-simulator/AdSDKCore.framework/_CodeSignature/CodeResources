@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/AdSDKCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		HHTLRGme00NcBPiDr8pH9xxN6T4=
+		NYth1nfoR85jhnklL0F9KQ9djSE=
 		</data>
 		<key>Modules/AdSDKCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0IckwKK0jlAxFUcmxiK5nYuiCr8=
+		ouQecLw82+5ZHkIbrLyppli273k=
 		</data>
 		<key>Modules/AdSDKCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CKU0ilayr2aHi0X3ep2upaevlNU=
+		FmlpKFUhPqJLsAm0MxxVs1zU9qs=
 		</data>
 		<key>Modules/AdSDKCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0IckwKK0jlAxFUcmxiK5nYuiCr8=
+		ouQecLw82+5ZHkIbrLyppli273k=
 		</data>
 		<key>Modules/AdSDKCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kENNJ6H9tKjooYsZrRl9NR7ToqM=
+		E4YqW1j7iF3Qr0aTCMgaPUMVqAI=
 		</data>
 		<key>Modules/AdSDKCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		HHTLRGme00NcBPiDr8pH9xxN6T4=
+		NYth1nfoR85jhnklL0F9KQ9djSE=
 		</data>
 		<key>Modules/AdSDKCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		irosRgcJ3WQ48/DkGb3G4fWGDec=
+		/P8/2Ldip4OhAD2Qzyeex2DtXJ4=
 		</data>
 		<key>Modules/AdSDKCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		pb/e4hSjQRGrjPFvT5voLS9WT1I=
+		EX2higDdyTQZ+sklsQ5i8Jm+RvU=
 		</data>
 		<key>Modules/AdSDKCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		irosRgcJ3WQ48/DkGb3G4fWGDec=
+		/P8/2Ldip4OhAD2Qzyeex2DtXJ4=
 		</data>
 		<key>Modules/AdSDKCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aeVHol4SyjeyPaApmtRvFLCjQI8=
+		aIqf/yRsJsi8qkbCFXSCPEdIDNw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Elw6PmnwCoqeYT3hnBYYDLsUBiamzTmLfqP+LwG17Y=
+			k2FqYs7H3Jw7yqlfo5Mu/BcGgEQARFfLccJHLsgM6KM=
 			</data>
 		</dict>
 		<key>Modules/AdSDKCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LpX8b6tm5I5KXmKm3EiDShRA5IS5kjQcE2krYPwwSQ=
+			BtoZYmgpZlOQcOtmaFccYcZutbx0yVgn7eWPa3l7I9Y=
 			</data>
 		</dict>
 		<key>Modules/AdSDKCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tEGl584ZDohQ3V6JZqvgNOdibTbvhI5u91AhVDgnMVM=
+			qHb5D6v6HWlVGqJZSlAmtDTecCfklA7ggRw7yeCVSeg=
 			</data>
 		</dict>
 		<key>Modules/AdSDKCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LpX8b6tm5I5KXmKm3EiDShRA5IS5kjQcE2krYPwwSQ=
+			BtoZYmgpZlOQcOtmaFccYcZutbx0yVgn7eWPa3l7I9Y=
 			</data>
 		</dict>
 		<key>Modules/AdSDKCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y82J4UaDeFMwWgCT9pdvf7FTzRbg2aBfzj1ag1rvPUE=
+			1HcHpVz683E7MSwb4BjUE0eOTYwnIEHztqXsxz06A+I=
 			</data>
 		</dict>
 		<key>Modules/AdSDKCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Elw6PmnwCoqeYT3hnBYYDLsUBiamzTmLfqP+LwG17Y=
+			k2FqYs7H3Jw7yqlfo5Mu/BcGgEQARFfLccJHLsgM6KM=
 			</data>
 		</dict>
 		<key>Modules/AdSDKCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yDe9Y+UtGP0z20YQsxhWqTyXwqTW8s4MmxzSKsbnPww=
+			Z5DUi0OtGpi3r+uzPhKYmJ08azCtoDQChnvWwaoEK9I=
 			</data>
 		</dict>
 		<key>Modules/AdSDKCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4mHpE9z+/R4NvQIUxaPitd/Kb1lIB2D03b9xUpDUShA=
+			bPsWu+UYdcC3LuYr6DMFvGThMoyIfrGgOfpp2Nvvd5w=
 			</data>
 		</dict>
 		<key>Modules/AdSDKCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yDe9Y+UtGP0z20YQsxhWqTyXwqTW8s4MmxzSKsbnPww=
+			Z5DUi0OtGpi3r+uzPhKYmJ08azCtoDQChnvWwaoEK9I=
 			</data>
 		</dict>
 		<key>Modules/AdSDKCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f09n/wsjc1dF3dR6hfSoqIdAnUfRjYFMMX/bz536cqI=
+			41MpiNuAF1MYeb/wSAPpNCmfkKznN77yPmI1PVmJY7Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

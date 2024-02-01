@@ -5826,6 +5826,34 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TapURL",
+                "printedName": "AdSDKCore.TapURL",
+                "usr": "s:9AdSDKCore6TapURLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AdSDKCore6TapURLVyAC10Foundation0D0Vcfc",
+            "mangledName": "$s9AdSDKCore6TapURLVyAC10Foundation0D0Vcfc",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -8618,7 +8646,7 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/TapURL.swift",
       "kind": "StringLiteral",
-      "offset": 2263,
+      "offset": 2661,
       "length": 12,
       "value": "\"nodisplay-\""
     },

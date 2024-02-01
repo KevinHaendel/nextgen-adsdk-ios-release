@@ -8,6 +8,7 @@ import Combine
 import Foundation
 import Swift
 import SwiftUI
+import WebKit
 import _Concurrency
 import _StringProcessing
 extension AdSDKCore.AdService {

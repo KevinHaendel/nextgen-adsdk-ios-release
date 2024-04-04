@@ -169,7 +169,7 @@ extension AppDelegate {
             .sink { [unowned self] completion in
                 switch completion {
                 case .failure(let error):
-						stateSubject.send(.error(error.localizedDescription))
+		    stateSubject.send(.error(error.localizedDescription))
 
                 case .finished:
                     print("Config: AdService configured")
@@ -346,15 +346,16 @@ To enable the partial visibility events  ``AdEvent/viewable(percentage:url:data:
 
 ```swift
 var body: some View {
-	List {
-		ForEach(cellViewModels) {
-			AdCell(viewModel: $0)
-		}
+    List {
+	ForEach(cellViewModels) {
+	    AdCell(viewModel: $0)
 	}
-	.clipped()
-	.adsContainer()
+    }
+    .clipped()
+    .adsContainer()
 }
 ```
+
 ## Aditional documentation
 
 You can find the documentation here: https://vm-mobile-sdk.github.io/nextgen-adsdk-ios-release/documentation/adsdkcore/

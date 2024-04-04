@@ -1,7 +1,7 @@
 framework module AdSDKSwiftUI {
   umbrella header "AdSDKSwiftUI.h"
-
   export *
+
   module * { export * }
 }
 

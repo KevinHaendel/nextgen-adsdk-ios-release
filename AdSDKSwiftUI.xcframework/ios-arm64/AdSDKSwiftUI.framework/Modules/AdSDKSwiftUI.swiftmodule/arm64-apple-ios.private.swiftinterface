@@ -1,7 +1,8 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AdSDKSwiftUI
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-module-flags-ignorable-private: -package-name com.adsdk.core
 import AdSDKCore
 @_exported import AdSDKSwiftUI
 import Combine
@@ -11,6 +12,7 @@ import SwiftUI
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 extension AdSDKCore.AdService {
   public static func configure(networkID: Swift.UInt, cacheSize: Swift.UInt8 = 100, timeout: Swift.Int = 60) -> Combine.AnyPublisher<AdSDKCore.AdService, AdSDKCore.AdError>
   #if compiler(>=5.3) && $AsyncAwait
@@ -26,10 +28,10 @@ extension SwiftUI.View {
   
 }
 extension AdSDKCore.AssetRequest : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_Concurrency.MainActor(unsafe) public struct AdView : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(advertisement: AdSDKCore.Advertisement)
+  @_Concurrency.MainActor(unsafe) public init(advertisement: any AdSDKCore.Advertisement)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name         = "AdSDKSwiftUI"
-    spec.version      = "3.2.0"
+    spec.version      = "4.0.0"
     spec.summary      = "TODO"
     spec.description  = <<-DESC
         TODO

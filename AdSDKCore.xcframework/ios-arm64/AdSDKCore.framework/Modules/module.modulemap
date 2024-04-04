@@ -1,7 +1,7 @@
 framework module AdSDKCore {
   umbrella header "AdSDKCore.h"
-
   export *
+
   module * { export * }
 }
 

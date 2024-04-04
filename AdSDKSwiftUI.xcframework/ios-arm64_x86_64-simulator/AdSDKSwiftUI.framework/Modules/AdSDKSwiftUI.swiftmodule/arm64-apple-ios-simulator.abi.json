@@ -57,16 +57,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdSDKSwiftUI",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -228,6 +218,13 @@
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "AdSDKSwiftUI"
       },
@@ -309,16 +306,47 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
+                "name": "ZStack",
+                "printedName": "SwiftUI.ZStack<SwiftUI._ConditionalContent<SwiftUI.Color, AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>>>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
+                    "name": "_ConditionalContent",
+                    "printedName": "SwiftUI._ConditionalContent<SwiftUI.Color, AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisibilityTrackingView",
+                        "printedName": "AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "SwiftUI.AnyView?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyView",
+                                "printedName": "SwiftUI.AnyView",
+                                "usr": "s:7SwiftUI7AnyViewV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:12AdSDKSwiftUI22VisibilityTrackingViewV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI19_ConditionalContentV"
                   }
-                ]
+                ],
+                "usr": "s:7SwiftUI6ZStackV"
               }
             ],
             "declKind": "Var",
@@ -338,16 +366,47 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
+                    "name": "ZStack",
+                    "printedName": "SwiftUI.ZStack<SwiftUI._ConditionalContent<SwiftUI.Color, AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>>>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
+                        "name": "_ConditionalContent",
+                        "printedName": "SwiftUI._ConditionalContent<SwiftUI.Color, AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "SwiftUI.Color",
+                            "usr": "s:7SwiftUI5ColorV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VisibilityTrackingView",
+                            "printedName": "AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "SwiftUI.AnyView?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "AnyView",
+                                    "printedName": "SwiftUI.AnyView",
+                                    "usr": "s:7SwiftUI7AnyViewV"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ],
+                            "usr": "s:12AdSDKSwiftUI22VisibilityTrackingViewV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI19_ConditionalContentV"
                       }
-                    ]
+                    ],
+                    "usr": "s:7SwiftUI6ZStackV"
                   }
                 ],
                 "declKind": "Accessor",
@@ -381,16 +440,47 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
+                    "name": "ZStack",
+                    "printedName": "SwiftUI.ZStack<SwiftUI._ConditionalContent<SwiftUI.Color, AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>>>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
+                        "name": "_ConditionalContent",
+                        "printedName": "SwiftUI._ConditionalContent<SwiftUI.Color, AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "SwiftUI.Color",
+                            "usr": "s:7SwiftUI5ColorV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VisibilityTrackingView",
+                            "printedName": "AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "SwiftUI.AnyView?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "AnyView",
+                                    "printedName": "SwiftUI.AnyView",
+                                    "usr": "s:7SwiftUI7AnyViewV"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ],
+                            "usr": "s:12AdSDKSwiftUI22VisibilityTrackingViewV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI19_ConditionalContentV"
                       }
-                    ]
+                    ],
+                    "usr": "s:7SwiftUI6ZStackV"
                   }
                 ]
               }
@@ -576,16 +666,52 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>>>, SwiftUI._FrameLayout>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
+                    "name": "GeometryReader",
+                    "printedName": "SwiftUI.GeometryReader<SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_EnvironmentKeyWritingModifier",
+                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGRect",
+                                "printedName": "CoreFoundation.CGRect",
+                                "usr": "c:@S@CGRect"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14GeometryReaderV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_FrameLayout",
+                    "printedName": "SwiftUI._FrameLayout",
+                    "usr": "s:7SwiftUI12_FrameLayoutV"
                   }
-                ]
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
               },
               {
                 "kind": "TypeNominal",
@@ -644,16 +770,52 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>>>, SwiftUI._FlexFrameLayout>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
+                    "name": "GeometryReader",
+                    "printedName": "SwiftUI.GeometryReader<SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_EnvironmentKeyWritingModifier",
+                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGRect",
+                                "printedName": "CoreFoundation.CGRect",
+                                "usr": "c:@S@CGRect"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14GeometryReaderV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_FlexFrameLayout",
+                    "printedName": "SwiftUI._FlexFrameLayout",
+                    "usr": "s:7SwiftUI16_FlexFrameLayoutV"
                   }
-                ]
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
               },
               {
                 "kind": "TypeNominal",
@@ -847,20 +1009,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/Generic\/GenericRenderer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1516,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/Generic\/GenericRenderer.swift",
-      "kind": "StringLiteral",
-      "offset": 1359,
-      "length": 11,
-      "value": "\"AdSDKSwiftUI.Coordinator\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1191,
@@ -903,25 +1051,25 @@
       "value": "\"nativeimg\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Services\/HTMLFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1523,
-      "length": 28,
-      "value": "\"<!--|File[!Body-HTML!]|-->\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Services\/HTMLFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1582,
-      "length": 6,
-      "value": "\"html\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Environment\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 971,
       "length": 13,
       "value": "\"SDK_VERSION\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Entities\/AdFatalError.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 28,
+      "value": "\"XCConfig file is incorrect\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Entities\/AdFatalError.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 75,
+      "value": "\"A fatal WebView renderer error occurred when creating an URL for caching.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/NativeImage\/NativeImageResponse.swift",
@@ -939,10 +1087,59 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1276,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1442,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1507,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1559,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2338,
+      "offset": 1903,
       "length": 3,
       "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/Generic\/GenericController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 379,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/Generic\/GenericController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2075,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/Generic\/GenericController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2634,
+      "length": 4,
+      "value": "true"
     }
   ]
 }

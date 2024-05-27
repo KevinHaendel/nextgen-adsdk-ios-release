@@ -159,7 +159,6 @@
          *  Adds a lambda to the `sdkEventHandlers` under the passed `eventName`.
          *
          *  @caller:    JS
-         *  @flow:      JS —> Ad
          */
         mraid.core.addEventHandler = function (eventName, handlerFun)
         {
@@ -185,7 +184,7 @@
          */
 
         /**
-         *  Tells the JS tier that the Swift tier is done performing the most recent
+         *  Tells the JS layer that the Swift layer is done performing the most recent
          *  SDK-internal command.
          *
          *  @caller:    Host
@@ -206,7 +205,7 @@
         };
 
         /**
-         *  Informs the the receiver that the native tier has detected an error.
+         *  Informs the the receiver that the native layer has detected an error.
          *
          *  @caller:    Host
          *  @flow:      Host —> JS —> Ad
@@ -400,7 +399,7 @@
         /**
          *  Container for creative properties.
          *
-         *  Values are set at runtime by the SDK's native tier via the change
+         *  Values are set at runtime by the SDK's native layer via the change
          *  handlers, using the mraid.core.fireChangeEvent() function.
          *
          *  [private]
@@ -454,8 +453,6 @@
                 if (listenerMap[key] == null)
                 {
                     listenerMap[key] = listenerFun;
-                    if (++this.count == 1)
-                        mraid.core.activate(eventName);
                 }
             };
 
@@ -465,10 +462,8 @@
                 var key = String(listenerFun);
                 if (listenerMap[key] != null)
                 {
+                    listenerMap[key] = null;
                     delete listenerMap[key];
-
-                    if (--this.count == 0)
-                        mraid.core.deactivate(eventName);
 
                     return true;
                 }
@@ -519,6 +514,7 @@
             var arglist = Array.prototype.slice.call(arguments);
 
             var eventName = arglist.shift();
+
             if (eventListeners[eventName] != null)
             {
                 eventListeners[eventName].broadcast(arglist);
@@ -559,7 +555,7 @@
          *    Private Property Change Handlers
          *
          *    These handlers are used to apply value updates from the SDK's native
-         *    tier to the private properties maintained by this API closure.
+         *    layer to the private properties maintained by this API closure.
          *    Some of these handlers might trigger event listeners installed by a
          *    creative developer's user code.
          */
@@ -568,7 +564,7 @@
          *  Container for property change handlers.
          *
          *  @type:      map «propertyName» ➜ «function (newValue) ...»
-         *  @note:      Since these functions are applied by the SDK native tier
+         *  @note:      Since these functions are applied by the SDK native layer
          *              only, arguments are assumed to always be of the correct
          *              type and in the valid range.
          *
@@ -609,7 +605,7 @@
 
         /*  ————————————————————————————————————————————————————————————————————————  *
          *
-         *    Event dispatchers that connect status updates from the native tier with
+         *    Event dispatchers that connect status updates from the native layer with
          *    private creative property storage and user-defined event handlers.
          */
 
@@ -800,9 +796,6 @@
 
         /**
          *  Shows the contents of the given URL in an external browser.
-         *
-         *  The SDK makes sure that the effect of applying this function is the
-         *  same as the user tapping a link that references the «remoteURL».
          *
          *  @flow:      Ad —> JS —> Host —> IOS Browser
          *  @spec:      MRAID-v3.0

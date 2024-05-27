@@ -29,12 +29,38 @@ final public class AdMetadata {
   final public var campaignId: Swift.String
   final public var bannerId: Swift.String
   final public var adType: Swift.String
+  final public var placement: AdSDKCore.AdPlacement
   final public var adName: Swift.String?
   final public var aspectRatio: Swift.Double?
   final public var ext: [Swift.String : Any]
   final public var rendererMetadata: [Swift.String : Any]?
-  public init(networkId: Swift.Int, campaignId: Swift.String, bannerId: Swift.String, adType: Swift.String, adName: Swift.String?, aspectRatio: Swift.Double?, rawResponse: Foundation.Data, rendererMetadata: [Swift.String : Any]? = nil)
+  public init(networkId: Swift.Int, campaignId: Swift.String, bannerId: Swift.String, adType: Swift.String, placement: AdSDKCore.AdPlacement, adName: Swift.String?, aspectRatio: Swift.Double?, rawResponse: Foundation.Data, rendererMetadata: [Swift.String : Any]? = nil)
   @objc deinit
+}
+public enum AdPlacement : Swift.Equatable, Swift.Hashable {
+  case inline
+  case interstitial(transitionDuration: Foundation.TimeInterval)
+  public static func == (a: AdSDKCore.AdPlacement, b: AdSDKCore.AdPlacement) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AdPlacementType : Swift.String, Swift.Decodable {
+  case inline
+  case interstitial
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol TargetURLHandler {
+  func isValidURL(_ url: Foundation.URL) -> Swift.Bool
+  func handleURL(_ url: Foundation.URL)
+}
+extension AdSDKCore.TargetURLHandler {
+  public func isValidURL(_ url: Foundation.URL) -> Swift.Bool
 }
 public struct AdRequest : Swift.Equatable {
   public let contentUnit: Swift.UInt
@@ -43,7 +69,9 @@ public struct AdRequest : Swift.Equatable {
   public let window: Swift.UInt32?
   public let timeoutAfterSeconds: Swift.Int
   public let gdprPd: Swift.Bool?
-  public init(contentUnit: Swift.UInt, profile: [Swift.String : Swift.String]? = nil, keywords: [Swift.String]? = nil, window: Swift.UInt32? = nil, timeoutAfterSeconds: Swift.Int? = nil, gdprPd: Swift.Bool? = nil)
+  public let campaignId: Swift.String?
+  public let bannerId: Swift.String?
+  public init(contentUnit: Swift.UInt, profile: [Swift.String : Swift.String]? = nil, keywords: [Swift.String]? = nil, window: Swift.UInt32? = nil, timeoutAfterSeconds: Swift.Int? = nil, gdprPd: Swift.Bool? = nil, campaignId: Swift.String? = nil, bannerId: Swift.String? = nil)
   public static func == (a: AdSDKCore.AdRequest, b: AdSDKCore.AdRequest) -> Swift.Bool
 }
 extension AdSDKCore.AdRequest {
@@ -73,7 +101,7 @@ public protocol Advertisement : AnyObject {
   var statePublisher: Combine.AnyPublisher<AdSDKCore.AdState, Swift.Never> { get }
   var stateStream: _Concurrency.AsyncStream<AdSDKCore.AdState> { get }
   func reload()
-  func performEvent(_ event: AdSDKCore.PerformableAdEvent)
+  func performTapEvent(_ event: AdSDKCore.TapEvent)
   func _layoutDidChange(visibility: Swift.Int)
 }
 public enum AdEvent {
@@ -81,8 +109,9 @@ public enum AdEvent {
   case impression(url: Foundation.URL, metadata: AdSDKCore.AdMetadata)
   case viewable(percentage: AdSDKCore.AdVisibilityPercentage, url: Foundation.URL, metadata: AdSDKCore.AdMetadata)
   case showingAsset(id: Swift.String, url: Foundation.URL, metadata: AdSDKCore.AdMetadata)
+  case unloadRequest
   case customRendererEvent(name: Swift.String, url: Foundation.URL?, info: Swift.String?, metadata: AdSDKCore.AdMetadata)
-  case error(_: AdSDKCore.AdError)
+  case error(_: AdSDKCore.AdError, eventName: Swift.String)
 }
 @_hasMissingDesignatedInitializers final public class AdService {
   final public let networkID: Swift.UInt
@@ -90,20 +119,12 @@ public enum AdEvent {
     get
     set
   }
-  public init(networkID: Swift.UInt)
   @objc deinit
 }
 extension AdSDKCore.AdService {
-  final public func configure(timeout: Swift.Int = 60) -> Combine.AnyPublisher<Swift.Never, AdSDKCore.AdError>
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func configure(timeout: Swift.Int = 60) async throws
-  #endif
   final public func registerRenderer<T>(_ renderer: T.Type, forName name: Swift.String) where T : AdSDKCore.AdRenderer
   final public func unregisterRenderer(forName name: Swift.String)
-  final public func makeAdvertisement(request: AdSDKCore.AdRequest) -> Combine.AnyPublisher<any AdSDKCore.Advertisement, AdSDKCore.AdError>
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func makeAdvertisement(request: AdSDKCore.AdRequest) async throws -> any AdSDKCore.Advertisement
-  #endif
+  final public func makeAdvertisement(request: AdSDKCore.AdRequest, placementType: AdSDKCore.AdPlacementType = .inline, targetURLHandler: (any AdSDKCore.TargetURLHandler)? = nil) -> any AdSDKCore.Advertisement
   final public func setGlobalParameter<T>(_ keyPath: Swift.WritableKeyPath<AdSDKCore.AdRequest.GlobalParameters, T?>, _ value: T?)
   final public func removeGlobalParameter<T>(_ keyPath: Swift.WritableKeyPath<AdSDKCore.AdRequest.GlobalParameters, T?>)
   final public func tagUser(request: AdSDKCore.TagRequest) -> Combine.AnyPublisher<Swift.Never, AdSDKCore.AdError>
@@ -130,13 +151,21 @@ public struct TrackRequest : Swift.Equatable {
   public init(landingpageId: Swift.UInt16, trackingspotId: Swift.UInt16, orderId: Swift.String? = nil, price: Swift.Float? = nil, total: Swift.Float? = nil, quantity: Swift.UInt32? = nil, itemNumber: Swift.String? = nil, description: Swift.String? = nil)
   public static func == (a: AdSDKCore.TrackRequest, b: AdSDKCore.TrackRequest) -> Swift.Bool
 }
+public enum AdControllerEvent : Swift.Equatable {
+  case tapAsset(id: Swift.String)
+  case tap
+  case silentTap(_: Foundation.URL)
+  case tapURL(_: AdSDKCore.TapURL)
+  case showingAsset(id: Swift.String)
+  case unloadRequest
+  case customRendererEvent(name: Swift.String, url: Foundation.URL? = nil, info: Swift.String? = nil)
+  public static func == (a: AdSDKCore.AdControllerEvent, b: AdSDKCore.AdControllerEvent) -> Swift.Bool
+}
 public enum AdError : Swift.Error, Swift.Equatable {
-  case configuration
   case reference
   case decoding
-  case bannerNotFound
-  case invalidContentType
   case unknownRenderer
+  case mismatchPlacementType
   case clientIssue
   case serverIssue
   case unknownStatusCode
@@ -148,6 +177,9 @@ public enum AdError : Swift.Error, Swift.Equatable {
   case reachabilityUnavailable
   case unspecifiedNetworkError
   case serverErrorResponse(message: Swift.String)
+  case bannerNotFound
+  case invalidContentType
+  case incorrectURL(_: Foundation.URL)
   case inabilityToProcessEvent
   case assetWithIdNotFound(assetId: Swift.String)
   case tapEventHandlingInProcess
@@ -169,18 +201,7 @@ public struct TapURL : Swift.Equatable, Swift.Hashable {
     get
   }
 }
-public enum PerformableAdEvent : Swift.Equatable {
-  case impression
-  case viewable(percentage: AdSDKCore.AdVisibilityPercentage)
-  case showingAsset(id: Swift.String)
-  case tap
-  case tapWithNoBrowser(_: AdSDKCore.TapURL)
-  case tapURL(_: AdSDKCore.TapURL)
-  case tapAsset(id: Swift.String)
-  case customRendererEvent(name: Swift.String, url: Foundation.URL? = nil, info: Swift.String? = nil)
-  public static func == (a: AdSDKCore.PerformableAdEvent, b: AdSDKCore.PerformableAdEvent) -> Swift.Bool
-}
-public enum AdVisibilityPercentage : Swift.Int, Swift.CaseIterable {
+public enum AdVisibilityPercentage : Swift.Int, Swift.CaseIterable, Swift.Equatable {
   case one
   case fifty
   case oneHundred
@@ -204,19 +225,16 @@ extension AdSDKCore.TagRequest {
     public static func == (a: AdSDKCore.TagRequest.Tag, b: AdSDKCore.TagRequest.Tag) -> Swift.Bool
   }
 }
-public enum AdControllerState : AdSDKCore.AssetRepositoryState {
-  case caching
-  case readyToPresent
-  case error(_: any Swift.Error)
-}
-public enum AdControllerEvent : Swift.Equatable {
-  case tapAsset(id: Swift.String)
+public enum TapEvent : Swift.Hashable, Swift.Equatable {
   case tap
-  case tapWithNoBrowser(_: AdSDKCore.TapURL)
+  case silentTap(_: Foundation.URL)
   case tapURL(_: AdSDKCore.TapURL)
-  case showingAsset(id: Swift.String)
-  case customRendererEvent(name: Swift.String, url: Foundation.URL? = nil, info: Swift.String? = nil)
-  public static func == (a: AdSDKCore.AdControllerEvent, b: AdSDKCore.AdControllerEvent) -> Swift.Bool
+  case tapAsset(id: Swift.String)
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: AdSDKCore.TapEvent, b: AdSDKCore.TapEvent) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public protocol AdController : AnyObject {
   associatedtype Renderer : AdSDKCore.AdRenderer where Self == Self.Renderer.Controller
@@ -227,8 +245,12 @@ public protocol AdController : AnyObject {
   func layoutDidChange(visibility: Swift.Int)
 }
 extension AdSDKCore.AdController {
-  public func _makeRenderer() -> Self.Renderer
   public func layoutDidChange(visibility: Swift.Int)
+}
+public enum AdControllerState : AdSDKCore.AssetRepositoryState {
+  case caching
+  case readyToPresent
+  case error(_: any Swift.Error)
 }
 public protocol AssetRepositoryState {
   static var caching: Self { get }
@@ -253,6 +275,8 @@ public protocol AssetRepository : AnyObject {
   @discardableResult
   func setAssetIntoCache(_ data: Foundation.Data, connectedURL: Foundation.URL) -> Foundation.URL?
 }
-extension AdSDKCore.AdVisibilityPercentage : Swift.Equatable {}
+extension AdSDKCore.AdPlacementType : Swift.Equatable {}
+extension AdSDKCore.AdPlacementType : Swift.Hashable {}
+extension AdSDKCore.AdPlacementType : Swift.RawRepresentable {}
 extension AdSDKCore.AdVisibilityPercentage : Swift.Hashable {}
 extension AdSDKCore.AdVisibilityPercentage : Swift.RawRepresentable {}

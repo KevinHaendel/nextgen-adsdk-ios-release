@@ -30,6 +30,30 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSDKCore",
+        "printedName": "AdSDKCore",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
         "name": "AdSDKCore",
         "printedName": "AdSDKCore",
         "declKind": "Import",
@@ -77,6 +101,37 @@
       },
       {
         "kind": "Import",
+        "name": "AdSDKCore",
+        "printedName": "AdSDKCore",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -84,6 +139,33 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSDKCore",
+        "printedName": "AdSDKCore",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
       },
       {
         "kind": "Import",
@@ -128,6 +210,23 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSDKCore",
+        "printedName": "AdSDKCore",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -135,6 +234,30 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSDKCore",
+        "printedName": "AdSDKCore",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
       },
       {
         "kind": "Import",
@@ -179,6 +302,16 @@
         "printedName": "AdSDKCore",
         "declKind": "Import",
         "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -194,6 +327,30 @@
         "kind": "Import",
         "name": "AdSDKCore",
         "printedName": "AdSDKCore",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSDKCore",
+        "printedName": "AdSDKCore",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "AdSDKSwiftUI"
       },
@@ -491,6 +648,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "AdService",
         "printedName": "AdService",
@@ -600,28 +767,6 @@
           },
           {
             "kind": "Function",
-            "name": "registerNativeRenderers",
-            "printedName": "registerNativeRenderers()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9AdSDKCore0A7ServiceC0A10SDKSwiftUIE23registerNativeRenderersyyF",
-            "mangledName": "$s9AdSDKCore0A7ServiceC0A10SDKSwiftUIE23registerNativeRenderersyyF",
-            "moduleName": "AdSDKSwiftUI",
-            "declAttributes": [
-              "Final",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "getAdSDKSwiftUIVersion",
             "printedName": "getAdSDKSwiftUIVersion()",
             "children": [
@@ -659,6 +804,64 @@
         "name": "View",
         "printedName": "View",
         "children": [
+          {
+            "kind": "Function",
+            "name": "interstitial",
+            "printedName": "interstitial(isShouldBePresented:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<τ_0_0, AdSDKSwiftUI.InterstitialModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InterstitialModifier",
+                    "printedName": "AdSDKSwiftUI.InterstitialModifier",
+                    "usr": "s:12AdSDKSwiftUI20InterstitialModifier33_34017E710C3A8880C22A8233D7CEE4E7LLV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Advertisement",
+                "printedName": "AdSDKCore.Advertisement",
+                "usr": "s:9AdSDKCore13AdvertisementP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP010AdSDKSwiftB0E12interstitial19isShouldBePresented_QrAA7BindingVySbG_0D7SDKCore13Advertisement_ptF",
+            "mangledName": "$s7SwiftUI4ViewP010AdSDKSwiftB0E12interstitial19isShouldBePresented_QrAA7BindingVySbG_0D7SDKCore13Advertisement_ptF",
+            "moduleName": "AdSDKSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Function",
             "name": "adsContainer",
@@ -1011,51 +1214,128 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 1191,
+      "offset": 983,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 1219,
+      "offset": 1011,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 2913,
+      "offset": 2043,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 2941,
+      "offset": 2071,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 3913,
+      "offset": 2748,
       "length": 11,
       "value": "\"nativeimg\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 3913,
+      "offset": 2806,
+      "length": 14,
+      "value": "\"interstitial\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2748,
       "length": 11,
       "value": "\"nativeimg\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2806,
+      "length": 14,
+      "value": "\"interstitial\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/InterstitialModifier\/InterstitialModifier.swift",
+      "kind": "BooleanLiteral",
+      "offset": 379,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/InterstitialModifier\/InterstitialModifier.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1484,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Services\/WarningLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 49,
+      "value": "\"AdSDK presentation error: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Services\/WarningLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 388,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Services\/WarningLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 615,
+      "length": 161,
+      "value": "\"You are trying to display an inline advert as an interstitial or vice versa. Please check the placement type parameter when creating your Advertisement object.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Environment\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 971,
+      "offset": 947,
       "length": 13,
       "value": "\"SDK_VERSION\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/InterstitialModifier\/InterstitialModifierViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 346,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/InterstitialModifier\/InterstitialModifierViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1369,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/InterstitialModifier\/InterstitialModifierViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1419,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/InterstitialModifier\/InterstitialModifierViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1866,
+      "length": 3,
+      "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Entities\/AdFatalError.swift",
@@ -1088,35 +1368,35 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1276,
+      "offset": 1453,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1442,
+      "offset": 1619,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1507,
+      "offset": 1684,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1559,
+      "offset": 1736,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 1903,
+      "offset": 2080,
       "length": 3,
       "value": "0.3"
     },

@@ -13,13 +13,17 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import os
 extension AdSDKCore.AdService {
   public static func configure(networkID: Swift.UInt, cacheSize: Swift.UInt8 = 100, timeout: Swift.Int = 60) -> Combine.AnyPublisher<AdSDKCore.AdService, AdSDKCore.AdError>
   #if compiler(>=5.3) && $AsyncAwait
   public static func configure(networkID: Swift.UInt, cacheSize: Swift.UInt8 = 100, timeout: Swift.Int = 60) async throws -> AdSDKCore.AdService
   #endif
-  final public func registerNativeRenderers()
   final public func getAdSDKSwiftUIVersion() -> Swift.String
+}
+extension SwiftUI.View {
+  public func interstitial(isShouldBePresented: SwiftUI.Binding<Swift.Bool>, _ advertisement: any AdSDKCore.Advertisement) -> some SwiftUI.View
+  
 }
 extension SwiftUI.View {
   public func adsContainer(width: CoreFoundation.CGFloat? = nil, height: CoreFoundation.CGFloat? = nil, alignment: SwiftUI.Alignment = .center) -> some SwiftUI.View

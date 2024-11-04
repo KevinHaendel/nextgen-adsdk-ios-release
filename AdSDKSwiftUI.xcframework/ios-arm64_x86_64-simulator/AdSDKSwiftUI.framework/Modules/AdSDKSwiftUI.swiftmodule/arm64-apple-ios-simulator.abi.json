@@ -54,6 +54,44 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit.UIImage",
+        "printedName": "UIKit.UIImage",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSDKCore",
+        "printedName": "AdSDKCore",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.UIImage",
+        "printedName": "UIKit.UIImage",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
         "name": "AdSDKCore",
         "printedName": "AdSDKCore",
         "declKind": "Import",
@@ -88,6 +126,40 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSDKCore",
+        "printedName": "AdSDKCore",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
       },
       {
         "kind": "Import",
@@ -142,6 +214,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -169,66 +251,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdSDKSwiftUI",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "AdSDKSwiftUI"
-      },
-      {
-        "kind": "Import",
-        "name": "AdSDKCore",
-        "printedName": "AdSDKCore",
-        "declKind": "Import",
-        "moduleName": "AdSDKSwiftUI"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "AdSDKSwiftUI",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdSDKCore",
-        "printedName": "AdSDKCore",
-        "declKind": "Import",
-        "moduleName": "AdSDKSwiftUI"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "AdSDKSwiftUI",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdSDKCore",
-        "printedName": "AdSDKCore",
-        "declKind": "Import",
-        "moduleName": "AdSDKSwiftUI"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit.UIColor",
+        "printedName": "UIKit.UIColor",
         "declKind": "Import",
         "moduleName": "AdSDKSwiftUI",
         "declAttributes": [
@@ -261,6 +285,81 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit.UIImage",
+        "printedName": "UIKit.UIImage",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSDKCore",
+        "printedName": "AdSDKCore",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSDKCore",
+        "printedName": "AdSDKCore",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSDKCore",
+        "printedName": "AdSDKCore",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -312,6 +411,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSDKCore",
+        "printedName": "AdSDKCore",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
       },
       {
         "kind": "Import",
@@ -441,7 +557,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Advertisement",
-                "printedName": "AdSDKCore.Advertisement",
+                "printedName": "any AdSDKCore.Advertisement",
                 "usr": "s:9AdSDKCore13AdvertisementP"
               }
             ],
@@ -463,47 +579,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ZStack",
-                "printedName": "SwiftUI.ZStack<SwiftUI._ConditionalContent<SwiftUI.Color, AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>>>",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "_ConditionalContent",
-                    "printedName": "SwiftUI._ConditionalContent<SwiftUI.Color, AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Color",
-                        "printedName": "SwiftUI.Color",
-                        "usr": "s:7SwiftUI5ColorV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "VisibilityTrackingView",
-                        "printedName": "AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "SwiftUI.AnyView?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "AnyView",
-                                "printedName": "SwiftUI.AnyView",
-                                "usr": "s:7SwiftUI7AnyViewV"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          }
-                        ],
-                        "usr": "s:12AdSDKSwiftUI22VisibilityTrackingViewV"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
                   }
-                ],
-                "usr": "s:7SwiftUI6ZStackV"
+                ]
               }
             ],
             "declKind": "Var",
@@ -523,47 +608,16 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ZStack",
-                    "printedName": "SwiftUI.ZStack<SwiftUI._ConditionalContent<SwiftUI.Color, AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>>>",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "_ConditionalContent",
-                        "printedName": "SwiftUI._ConditionalContent<SwiftUI.Color, AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "SwiftUI.Color",
-                            "usr": "s:7SwiftUI5ColorV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "VisibilityTrackingView",
-                            "printedName": "AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Optional",
-                                "printedName": "SwiftUI.AnyView?",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "AnyView",
-                                    "printedName": "SwiftUI.AnyView",
-                                    "usr": "s:7SwiftUI7AnyViewV"
-                                  }
-                                ],
-                                "usr": "s:Sq"
-                              }
-                            ],
-                            "usr": "s:12AdSDKSwiftUI22VisibilityTrackingViewV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI19_ConditionalContentV"
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
                       }
-                    ],
-                    "usr": "s:7SwiftUI6ZStackV"
+                    ]
                   }
                 ],
                 "declKind": "Accessor",
@@ -597,47 +651,16 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ZStack",
-                    "printedName": "SwiftUI.ZStack<SwiftUI._ConditionalContent<SwiftUI.Color, AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>>>",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "_ConditionalContent",
-                        "printedName": "SwiftUI._ConditionalContent<SwiftUI.Color, AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "SwiftUI.Color",
-                            "usr": "s:7SwiftUI5ColorV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "VisibilityTrackingView",
-                            "printedName": "AdSDKSwiftUI.VisibilityTrackingView<SwiftUI.AnyView?>",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Optional",
-                                "printedName": "SwiftUI.AnyView?",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "AnyView",
-                                    "printedName": "SwiftUI.AnyView",
-                                    "usr": "s:7SwiftUI7AnyViewV"
-                                  }
-                                ],
-                                "usr": "s:Sq"
-                              }
-                            ],
-                            "usr": "s:12AdSDKSwiftUI22VisibilityTrackingViewV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI19_ConditionalContentV"
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
                       }
-                    ],
-                    "usr": "s:7SwiftUI6ZStackV"
+                    ]
                   }
                 ]
               }
@@ -649,6 +672,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -656,6 +689,34 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "AdSDKSwiftUI"
       },
       {
         "kind": "TypeDecl",
@@ -811,22 +872,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<τ_0_0, AdSDKSwiftUI.InterstitialModifier>",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InterstitialModifier",
-                    "printedName": "AdSDKSwiftUI.InterstitialModifier",
-                    "usr": "s:12AdSDKSwiftUI20InterstitialModifier33_34017E710C3A8880C22A8233D7CEE4E7LLV"
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
                   }
-                ],
-                "usr": "s:7SwiftUI15ModifiedContentV"
+                ]
               },
               {
                 "kind": "TypeNominal",
@@ -845,7 +900,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Advertisement",
-                "printedName": "AdSDKCore.Advertisement",
+                "printedName": "any AdSDKCore.Advertisement",
                 "usr": "s:9AdSDKCore13AdvertisementP"
               }
             ],
@@ -869,52 +924,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>>>, SwiftUI._FrameLayout>",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GeometryReader",
-                    "printedName": "SwiftUI.GeometryReader<SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>>>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "_EnvironmentKeyWritingModifier",
-                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "CGRect",
-                                "printedName": "CoreFoundation.CGRect",
-                                "usr": "c:@S@CGRect"
-                              }
-                            ],
-                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI15ModifiedContentV"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI14GeometryReaderV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_FrameLayout",
-                    "printedName": "SwiftUI._FrameLayout",
-                    "usr": "s:7SwiftUI12_FrameLayoutV"
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
                   }
-                ],
-                "usr": "s:7SwiftUI15ModifiedContentV"
+                ]
               },
               {
                 "kind": "TypeNominal",
@@ -973,52 +992,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>>>, SwiftUI._FlexFrameLayout>",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GeometryReader",
-                    "printedName": "SwiftUI.GeometryReader<SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>>>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "_EnvironmentKeyWritingModifier",
-                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<CoreFoundation.CGRect>",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "CGRect",
-                                "printedName": "CoreFoundation.CGRect",
-                                "usr": "c:@S@CGRect"
-                              }
-                            ],
-                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI15ModifiedContentV"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI14GeometryReaderV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_FlexFrameLayout",
-                    "printedName": "SwiftUI._FlexFrameLayout",
-                    "usr": "s:7SwiftUI16_FlexFrameLayoutV"
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
                   }
-                ],
-                "usr": "s:7SwiftUI15ModifiedContentV"
+                ]
               },
               {
                 "kind": "TypeNominal",
@@ -1169,7 +1152,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1211,6 +1194,20 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/InterstitialImageClose\/InterstitialImageCloseController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 621,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/InterstitialImageClose\/InterstitialImageCloseController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6088,
+      "length": 13,
+      "value": "1000000000"
+    },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
       "kind": "IntegerLiteral",
@@ -1256,6 +1253,13 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
       "kind": "StringLiteral",
+      "offset": 2855,
+      "length": 20,
+      "value": "\"interstitial_close\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
+      "kind": "StringLiteral",
       "offset": 2748,
       "length": 11,
       "value": "\"nativeimg\""
@@ -1268,6 +1272,27 @@
       "value": "\"interstitial\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2855,
+      "length": 20,
+      "value": "\"interstitial_close\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/InterstitialImageClose\/InterstitialImageCloseResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2524,
+      "length": 20,
+      "value": "\"close_button_image\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/InterstitialImageClose\/InterstitialImageCloseResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2524,
+      "length": 20,
+      "value": "\"close_button_image\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/InterstitialModifier\/InterstitialModifier.swift",
       "kind": "BooleanLiteral",
       "offset": 379,
@@ -1275,32 +1300,11 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/InterstitialModifier\/InterstitialModifier.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1484,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Services\/WarningLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 340,
-      "length": 49,
-      "value": "\"AdSDK presentation error: \""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Services\/WarningLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 388,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Services\/WarningLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 615,
-      "length": 161,
-      "value": "\"You are trying to display an inline advert as an interstitial or vice versa. Please check the placement type parameter when creating your Advertisement object.\""
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Services\/AsyncTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 869,
+      "length": 13,
+      "value": "1000000000"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Environment\/Configuration.swift",
@@ -1317,86 +1321,72 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/InterstitialModifier\/InterstitialModifierViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1369,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/InterstitialModifier\/InterstitialModifierViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1419,
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/NativeImage\/NativeImageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
       "length": 5,
-      "value": "false"
+      "value": "\"img\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/InterstitialModifier\/InterstitialModifierViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/NativeImage\/NativeImageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 5,
+      "value": "\"img\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/InterstitialImageClose\/InterstitialImageCloseRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 1866,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Entities\/AdFatalError.swift",
-      "kind": "StringLiteral",
-      "offset": 302,
-      "length": 28,
-      "value": "\"XCConfig file is incorrect\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Core\/Entities\/AdFatalError.swift",
-      "kind": "StringLiteral",
-      "offset": 385,
-      "length": 75,
-      "value": "\"A fatal WebView renderer error occurred when creating an URL for caching.\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/NativeImage\/NativeImageResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 881,
-      "length": 5,
-      "value": "\"img\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/NativeImage\/NativeImageResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 881,
-      "length": 5,
-      "value": "\"img\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1453,
+      "offset": 4082,
       "length": 4,
-      "value": "true"
+      "value": "15.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1619,
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/InterstitialImageClose\/InterstitialImageCloseRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 4143,
+      "length": 4,
+      "value": "40.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/InterstitialImageClose\/InterstitialImageCloseRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 4214,
       "length": 3,
-      "value": "100"
+      "value": "4.0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/InterstitialImageClose\/InterstitialImageCloseRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 4255,
+      "length": 5,
+      "value": "-90.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/InterstitialImageClose\/InterstitialImageCloseRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 4287,
+      "length": 4,
+      "value": "40.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/InterstitialImageClose\/InterstitialImageCloseRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 4322,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/InterstitialImageClose\/InterstitialImageCloseRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1684,
+      "offset": 4394,
       "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1736,
-      "length": 3,
-      "value": "100"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/AdView\/AdViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2080,
+      "offset": 2192,
       "length": 3,
       "value": "0.3"
     },
@@ -1408,18 +1398,11 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/Generic\/GenericController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2075,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/Presentation\/Renderers\/Generic\/GenericController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2634,
-      "length": 4,
-      "value": "true"
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/AdSDK-enrbdsamlglslxdtjrcwguxybngr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AdSDKSwiftUI-Live\/IntermediateBuildFilesPath\/AdSDKSwiftUI.build\/Release Live-iphonesimulator\/AdSDKSwiftUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 7,
+      "value": "\"close\""
     }
   ]
 }

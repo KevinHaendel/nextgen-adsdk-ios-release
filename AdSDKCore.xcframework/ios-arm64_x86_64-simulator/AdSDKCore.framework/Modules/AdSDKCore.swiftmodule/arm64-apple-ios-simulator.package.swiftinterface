@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name AdSDKCore -package-name com.adsdk.core
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name AdSDKCore -package-name com.adsdk.core
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 @_exported import AdSDKCore
 import Combine
@@ -23,6 +23,9 @@ import os
   final public var adSDKCoreVersion: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $TypedThrows
+  convenience package init(networkID: Swift.UInt, cacheSize: Swift.UInt8?, timeout: Foundation.TimeInterval?) async throws(AdSDKCore.AdError)
+  #endif
   @objc deinit
 }
 extension AdSDKCore.AdService {
@@ -391,8 +394,14 @@ public struct TapURL : Swift.Equatable, Swift.Hashable, Swift.Sendable {
     get
   }
 }
+extension Foundation.JSONDecoder {
+  #if compiler(>=5.3) && $TypedThrows
+  package func decode<T>(type: T.Type, from data: Foundation.Data) throws(AdSDKCore.AdError) -> T where T : Swift.Decodable
+  #endif
+}
 extension _Concurrency.Task where Success == Swift.Never, Failure == Swift.Never {
   #warning("Code should be removed when migrate to IOS 16 as a min target")
+  package static func sleep(seconds: Foundation.TimeInterval) async throws
 }
 public protocol AssetRepository : AnyObject, Swift.Sendable {
   #if compiler(>=5.3) && $TypedThrows
@@ -448,6 +457,33 @@ extension UIKit.UIApplication : @retroactive Swift.Sendable {
 extension UIKit.UIApplication : Swift.Sendable {
 }
 #endif
+package protocol MRAIDService : Swift.Sendable {
+  @_Concurrency.MainActor var delegate: (any AdSDKCore.MRAIDServiceDelegate)? { get set }
+  @_Concurrency.MainActor func loadHTML(body: Swift.String, baseURL: Foundation.URL?)
+}
+final package class MRAIDServiceImpl : AdSDKCore.MRAIDService {
+  @_Concurrency.MainActor weak final package var delegate: (any AdSDKCore.MRAIDServiceDelegate)?
+  @_Concurrency.MainActor package init(sdkVersion: Swift.String, _ webView: WebKit.WKWebView)
+  @objc deinit
+}
+extension AdSDKCore.MRAIDServiceImpl {
+  @_Concurrency.MainActor final package func loadHTML(body: Swift.String, baseURL: Foundation.URL?)
+}
+package protocol MRAIDServiceDelegate : AnyObject, Swift.Sendable {
+  func webViewReady() async
+  #if compiler(>=5.3) && $TypedThrows
+  func handleEvent(_ event: AdSDKCore.MRAIDServiceEvent) async throws(AdSDKCore.AdError)
+  #endif
+}
+package enum MRAIDServiceEvent : Swift.Sendable, Swift.Equatable, Swift.Hashable {
+  case open(AdSDKCore.TapURL)
+  case customMessage(name: Swift.String, info: Swift.String?)
+  package static func == (a: AdSDKCore.MRAIDServiceEvent, b: AdSDKCore.MRAIDServiceEvent) -> Swift.Bool
+  package func hash(into hasher: inout Swift.Hasher)
+  package var hashValue: Swift.Int {
+    get
+  }
+}
 public protocol AssetRequestService : Swift.Sendable {
   #if compiler(>=5.3) && $TypedThrows
   func request(_ url: Foundation.URL) async throws(AdSDKCore.AdError) -> Foundation.Data

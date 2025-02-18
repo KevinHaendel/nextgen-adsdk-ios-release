@@ -39,6 +39,10 @@ extension SwiftUICore.View {
   
 }
 extension AdSDKCore.AdService {
+  public static var adSDKSwiftUIVersion: Swift.String {
+    get
+  }
+  @available(*, deprecated, renamed: "AdService.adSDKSwiftUIVersion", message: "The property will be removed. Please use the static property.")
   final public var adSDKSwiftUIVersion: Swift.String {
     get
   }

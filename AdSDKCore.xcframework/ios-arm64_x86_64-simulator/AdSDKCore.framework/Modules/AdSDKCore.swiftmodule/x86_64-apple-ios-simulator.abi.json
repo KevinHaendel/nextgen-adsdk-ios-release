@@ -28,6 +28,53 @@
         "children": [
           {
             "kind": "Var",
+            "name": "adSDKCoreVersion",
+            "printedName": "adSDKCoreVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdSDKCore0A7ServiceC02adB7VersionSSvpZ",
+            "mangledName": "$s9AdSDKCore0A7ServiceC02adB7VersionSSvpZ",
+            "moduleName": "AdSDKCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A7ServiceC02adB7VersionSSvgZ",
+                "mangledName": "$s9AdSDKCore0A7ServiceC02adB7VersionSSvgZ",
+                "moduleName": "AdSDKCore",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "networkID",
             "printedName": "networkID",
             "children": [
@@ -91,9 +138,11 @@
             "usr": "s:9AdSDKCore0A7ServiceC02adB7VersionSSvp",
             "mangledName": "$s9AdSDKCore0A7ServiceC02adB7VersionSSvp",
             "moduleName": "AdSDKCore",
+            "deprecated": true,
             "declAttributes": [
               "Final",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
             "accessors": [
@@ -8934,13 +8983,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -10741,13 +10783,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -16920,21 +16955,21 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/AdService\/AdService.swift",
       "kind": "IntegerLiteral",
-      "offset": 13733,
+      "offset": 14044,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Entities\/AdMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 6510,
+      "offset": 6500,
       "length": 6,
       "value": "\"body\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Entities\/AdMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 6538,
+      "offset": 6528,
       "length": 5,
       "value": "\"ext\""
     },
@@ -17123,28 +17158,28 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Environment\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 1599,
+      "offset": 1332,
       "length": 10,
       "value": "\"BASE_URL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Environment\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 1643,
+      "offset": 1376,
       "length": 19,
       "value": "\"ANALYSER_BASE_URL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Environment\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 1688,
+      "offset": 1421,
       "length": 10,
       "value": "\"AD_TYPES\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Environment\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 1724,
+      "offset": 1457,
       "length": 13,
       "value": "\"SDK_VERSION\""
     },
@@ -17647,15 +17682,8 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/NetworkProvider\/Helpers\/ReachabilityManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 418,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/NetworkProvider\/Helpers\/ReachabilityManager.swift",
       "kind": "StringLiteral",
-      "offset": 1699,
+      "offset": 2070,
       "length": 39,
       "value": "\"adsdk.core.reachability.manager.queue\""
     },

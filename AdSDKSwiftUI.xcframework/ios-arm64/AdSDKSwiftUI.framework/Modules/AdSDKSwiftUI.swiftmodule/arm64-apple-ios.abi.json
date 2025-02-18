@@ -1085,11 +1085,61 @@
               }
             ],
             "declKind": "Var",
+            "usr": "s:9AdSDKCore0A7ServiceC0A10SDKSwiftUIE02adD9UIVersionSSvpZ",
+            "mangledName": "$s9AdSDKCore0A7ServiceC0A10SDKSwiftUIE02adD9UIVersionSSvpZ",
+            "moduleName": "AdSDKSwiftUI",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A7ServiceC0A10SDKSwiftUIE02adD9UIVersionSSvgZ",
+                "mangledName": "$s9AdSDKCore0A7ServiceC0A10SDKSwiftUIE02adD9UIVersionSSvgZ",
+                "moduleName": "AdSDKSwiftUI",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adSDKSwiftUIVersion",
+            "printedName": "adSDKSwiftUIVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
             "usr": "s:9AdSDKCore0A7ServiceC0A10SDKSwiftUIE02adD9UIVersionSSvp",
             "mangledName": "$s9AdSDKCore0A7ServiceC0A10SDKSwiftUIE02adD9UIVersionSSvp",
             "moduleName": "AdSDKSwiftUI",
+            "deprecated": true,
             "declAttributes": [
               "Final",
+              "Available",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -1506,21 +1556,21 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1691,
+      "offset": 2033,
       "length": 11,
       "value": "\"nativeimg\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1749,
+      "offset": 2091,
       "length": 14,
       "value": "\"interstitial\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKSwiftUI\/AdSDKSwiftUI\/AdService+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1798,
+      "offset": 2140,
       "length": 20,
       "value": "\"interstitial_close\""
     },

@@ -19,7 +19,11 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os
 @_hasMissingDesignatedInitializers final public class AdService : Swift.Sendable {
+  public static var adSDKCoreVersion: Swift.String {
+    get
+  }
   final public let networkID: Swift.UInt
+  @available(*, deprecated, renamed: "AdService.adSDKCoreVersion", message: "The property will be removed. Please use the static property.")
   final public var adSDKCoreVersion: Swift.String {
     get
   }
@@ -97,7 +101,7 @@ public enum AdInterstitialState : Swift.Sendable, Swift.Equatable {
 extension AdSDKCore.AdInterstitialState {
   public static func == (lhs: AdSDKCore.AdInterstitialState, rhs: AdSDKCore.AdInterstitialState) -> Swift.Bool
 }
-@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class AdMetadata : Swift.Sendable {
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class AdMetadata {
   @_Concurrency.MainActor final public var networkId: Swift.Int
   @_Concurrency.MainActor final public var campaignId: Swift.String
   @_Concurrency.MainActor final public var bannerId: Swift.String
@@ -270,7 +274,7 @@ extension AdSDKCore.AdRequestGlobalParameters {
     }
   }
 }
-@_Concurrency.MainActor public class GlobalParameters : Swift.Sendable {
+@_Concurrency.MainActor public class GlobalParameters {
   @_Concurrency.MainActor public var gdpr: AdSDKCore.GlobalParameters.GDPR?
   @_Concurrency.MainActor public var externalUID: AdSDKCore.GlobalParameters.ExternalUID?
   @_Concurrency.MainActor public var isOptOutEnabled: Swift.Bool?
@@ -455,6 +459,7 @@ public protocol AssetRequestService : Swift.Sendable {
 }
 #warning("Code should be removed when migrate to IOS 17 as a min target")
 #warning("Code should be rewritten when migrate to IOS 15 as a min target")
+extension AdSDKCore.AdMetadata : Swift.Sendable {}
 extension AdSDKCore.AdRequestGlobalParameters.DSARequirement : Swift.Equatable {}
 extension AdSDKCore.AdRequestGlobalParameters.DSARequirement : Swift.Hashable {}
 extension AdSDKCore.AdRequestGlobalParameters.DSARequirement : Swift.RawRepresentable {}
@@ -464,6 +469,7 @@ extension AdSDKCore.AdRequestGlobalParameters.DSAPubRender : Swift.RawRepresenta
 extension AdSDKCore.AdRequestGlobalParameters.DSADataToPubs : Swift.Equatable {}
 extension AdSDKCore.AdRequestGlobalParameters.DSADataToPubs : Swift.Hashable {}
 extension AdSDKCore.AdRequestGlobalParameters.DSADataToPubs : Swift.RawRepresentable {}
+extension AdSDKCore.GlobalParameters : Swift.Sendable {}
 extension AdSDKCore.AdPlacementType : Swift.RawRepresentable {}
 extension AdSDKCore.AdVisibilityPercentage : Swift.Hashable {}
 extension AdSDKCore.AdVisibilityPercentage : Swift.RawRepresentable {}

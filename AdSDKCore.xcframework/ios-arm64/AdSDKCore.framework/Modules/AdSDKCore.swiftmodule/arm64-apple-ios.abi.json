@@ -3057,6 +3057,128 @@
           },
           {
             "kind": "Var",
+            "name": "durationMetadata",
+            "printedName": "durationMetadata",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdSDKCore.AdMetadata.DurationMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DurationMetadata",
+                    "printedName": "AdSDKCore.AdMetadata.DurationMetadata",
+                    "usr": "s:9AdSDKCore0A8MetadataC08DurationC0V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdSDKCore0A8MetadataC08durationC0AC08DurationC0VSgvp",
+            "mangledName": "$s9AdSDKCore0A8MetadataC08durationC0AC08DurationC0VSgvp",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdSDKCore.AdMetadata.DurationMetadata?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DurationMetadata",
+                        "printedName": "AdSDKCore.AdMetadata.DurationMetadata",
+                        "usr": "s:9AdSDKCore0A8MetadataC08DurationC0V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC08durationC0AC08DurationC0VSgvg",
+                "mangledName": "$s9AdSDKCore0A8MetadataC08durationC0AC08DurationC0VSgvg",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdSDKCore.AdMetadata.DurationMetadata?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DurationMetadata",
+                        "printedName": "AdSDKCore.AdMetadata.DurationMetadata",
+                        "usr": "s:9AdSDKCore0A8MetadataC08DurationC0V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC08durationC0AC08DurationC0VSgvs",
+                "mangledName": "$s9AdSDKCore0A8MetadataC08durationC0AC08DurationC0VSgvs",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC08durationC0AC08DurationC0VSgvM",
+                "mangledName": "$s9AdSDKCore0A8MetadataC08durationC0AC08DurationC0VSgvM",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "rendererMetadata",
             "printedName": "rendererMetadata",
             "children": [
@@ -3217,9 +3339,106 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isDSAButtonShown",
+            "printedName": "isDSAButtonShown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdSDKCore0A8MetadataC16isDSAButtonShownSbvp",
+            "mangledName": "$s9AdSDKCore0A8MetadataC16isDSAButtonShownSbvp",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC16isDSAButtonShownSbvg",
+                "mangledName": "$s9AdSDKCore0A8MetadataC16isDSAButtonShownSbvg",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC16isDSAButtonShownSbvs",
+                "mangledName": "$s9AdSDKCore0A8MetadataC16isDSAButtonShownSbvs",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A8MetadataC16isDSAButtonShownSbvM",
+                "mangledName": "$s9AdSDKCore0A8MetadataC16isDSAButtonShownSbvM",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(networkId:campaignId:bannerId:adType:placement:adName:aspectRatio:trackingEvents:rawResponse:rendererMetadata:)",
+            "printedName": "init(networkId:campaignId:bannerId:adType:placement:adName:aspectRatio:trackingEvents:rawResponse:isDSAButtonShown:durationMetadata:rendererMetadata:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3315,6 +3534,27 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdSDKCore.AdMetadata.DurationMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DurationMetadata",
+                    "printedName": "AdSDKCore.AdMetadata.DurationMetadata",
+                    "usr": "s:9AdSDKCore0A8MetadataC08DurationC0V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "[Swift.String : Any]?",
                 "children": [
@@ -3343,8 +3583,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9AdSDKCore0A8MetadataC9networkId08campaignE006bannerE06adType9placement0H4Name11aspectRatio14trackingEvents11rawResponse08rendererC0ACSi_S3SAA0a9PlacementI0OSSSgSdSgSayAA17TrackingEventDataVGSg10Foundation0V0VSDySSypGSgtcfc",
-            "mangledName": "$s9AdSDKCore0A8MetadataC9networkId08campaignE006bannerE06adType9placement0H4Name11aspectRatio14trackingEvents11rawResponse08rendererC0ACSi_S3SAA0a9PlacementI0OSSSgSdSgSayAA17TrackingEventDataVGSg10Foundation0V0VSDySSypGSgtcfc",
+            "usr": "s:9AdSDKCore0A8MetadataC9networkId08campaignE006bannerE06adType9placement0H4Name11aspectRatio14trackingEvents11rawResponse16isDSAButtonShown08durationC008rendererC0ACSi_S3SAA0a9PlacementI0OSSSgSdSgSayAA17TrackingEventDataVGSg10Foundation0Z0VSbAC08DurationC0VSgSDySSypGSgtcfc",
+            "mangledName": "$s9AdSDKCore0A8MetadataC9networkId08campaignE006bannerE06adType9placement0H4Name11aspectRatio14trackingEvents11rawResponse16isDSAButtonShown08durationC008rendererC0ACSi_S3SAA0a9PlacementI0OSSSgSdSgSayAA17TrackingEventDataVGSg10Foundation0Z0VSbAC08DurationC0VSgSDySSypGSgtcfc",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "Custom",
@@ -3352,6 +3592,225 @@
               "RawDocComment"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "DurationMetadata",
+            "printedName": "DurationMetadata",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "requestDuration",
+                "printedName": "requestDuration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9AdSDKCore0A8MetadataC08DurationC0V07requestD0Sdvp",
+                "mangledName": "$s9AdSDKCore0A8MetadataC08DurationC0V07requestD0Sdvp",
+                "moduleName": "AdSDKCore",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9AdSDKCore0A8MetadataC08DurationC0V07requestD0Sdvg",
+                    "mangledName": "$s9AdSDKCore0A8MetadataC08DurationC0V07requestD0Sdvg",
+                    "moduleName": "AdSDKCore",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "rendererConfigurationDuration",
+                "printedName": "rendererConfigurationDuration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9AdSDKCore0A8MetadataC08DurationC0V021rendererConfigurationD0Sdvp",
+                "mangledName": "$s9AdSDKCore0A8MetadataC08DurationC0V021rendererConfigurationD0Sdvp",
+                "moduleName": "AdSDKCore",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9AdSDKCore0A8MetadataC08DurationC0V021rendererConfigurationD0Sdvg",
+                    "mangledName": "$s9AdSDKCore0A8MetadataC08DurationC0V021rendererConfigurationD0Sdvg",
+                    "moduleName": "AdSDKCore",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "totalDuration",
+                "printedName": "totalDuration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9AdSDKCore0A8MetadataC08DurationC0V05totalD0Sdvp",
+                "mangledName": "$s9AdSDKCore0A8MetadataC08DurationC0V05totalD0Sdvp",
+                "moduleName": "AdSDKCore",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9AdSDKCore0A8MetadataC08DurationC0V05totalD0Sdvg",
+                    "mangledName": "$s9AdSDKCore0A8MetadataC08DurationC0V05totalD0Sdvg",
+                    "moduleName": "AdSDKCore",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(requestStartTime:requestEndTime:rendererConfigurationStartTime:rendererConfigurationEndTime:loadStartTime:loadEndTime:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DurationMetadata",
+                    "printedName": "AdSDKCore.AdMetadata.DurationMetadata",
+                    "usr": "s:9AdSDKCore0A8MetadataC08DurationC0V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9AdSDKCore0A8MetadataC08DurationC0V16requestStartTime0e3EndG0021rendererConfigurationfG00ijhG004loadfG00khG0AE10Foundation4DateV_A5Ntcfc",
+                "mangledName": "$s9AdSDKCore0A8MetadataC08DurationC0V16requestStartTime0e3EndG0021rendererConfigurationfG00ijhG004loadfG00khG0AE10Foundation4DateV_A5Ntcfc",
+                "moduleName": "AdSDKCore",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9AdSDKCore0A8MetadataC08DurationC0V",
+            "mangledName": "$s9AdSDKCore0A8MetadataC08DurationC0V",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -4790,6 +5249,30 @@
             "protocolReq": true,
             "declAttributes": [
               "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "_performDSATap",
+            "printedName": "_performDSATap()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AdSDKCore13AdvertisementP14_performDSATapyyYaF",
+            "mangledName": "$s9AdSDKCore13AdvertisementP14_performDSATapyyYaF",
+            "moduleName": "AdSDKCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdSDKCore.Advertisement>",
+            "sugared_genericSig": "<Self where Self : AdSDKCore.Advertisement>",
+            "protocolReq": true,
+            "declAttributes": [
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -7649,9 +8132,253 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isIpIdentified",
+            "printedName": "isIpIdentified",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14isIpIdentifiedSbSgvp",
+            "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC14isIpIdentifiedSbSgvp",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14isIpIdentifiedSbSgvg",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC14isIpIdentifiedSbSgvg",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14isIpIdentifiedSbSgvs",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC14isIpIdentifiedSbSgvs",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14isIpIdentifiedSbSgvM",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC14isIpIdentifiedSbSgvM",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cookiesAccess",
+            "printedName": "cookiesAccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CookiesAccess",
+                    "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
+                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13cookiesAccessAC07CookiesG0OSgvp",
+            "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13cookiesAccessAC07CookiesG0OSgvp",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CookiesAccess",
+                        "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
+                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13cookiesAccessAC07CookiesG0OSgvg",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13cookiesAccessAC07CookiesG0OSgvg",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CookiesAccess",
+                        "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
+                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13cookiesAccessAC07CookiesG0OSgvs",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13cookiesAccessAC07CookiesG0OSgvs",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13cookiesAccessAC07CookiesG0OSgvM",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13cookiesAccessAC07CookiesG0OSgvM",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(gdpr:externalUID:isOptOutEnabled:userIds:isSHBEnabled:dsa:)",
+            "printedName": "init(gdpr:externalUID:isOptOutEnabled:userIds:isSHBEnabled:dsa:isIpIdentified:cookiesAccess:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7756,11 +8483,41 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CookiesAccess",
+                    "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
+                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC4gdpr11externalUID15isOptOutEnabled7userIds0I10SHBEnabled3dsaAcA0dE0C4GDPRVSg_AK08ExternalH0VSgSbSgSayAK10UserIdTypeOGSgArC3DSAVSgtcfc",
-            "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC4gdpr11externalUID15isOptOutEnabled7userIds0I10SHBEnabled3dsaAcA0dE0C4GDPRVSg_AK08ExternalH0VSgSbSgSayAK10UserIdTypeOGSgArC3DSAVSgtcfc",
+            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC4gdpr11externalUID15isOptOutEnabled7userIds0I10SHBEnabled3dsa0I12IpIdentified13cookiesAccessAcA0dE0C4GDPRVSg_AM08ExternalH0VSgSbSgSayAM10UserIdTypeOGSgAtC3DSAVSgAtC07CookiesT0OSgtcfc",
+            "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC4gdpr11externalUID15isOptOutEnabled7userIds0I10SHBEnabled3dsa0I12IpIdentified13cookiesAccessAcA0dE0C4GDPRVSg_AM08ExternalH0VSgSbSgSayAM10UserIdTypeOGSgAtC3DSAVSgAtC07CookiesT0OSgtcfc",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "Custom",
@@ -7874,13 +8631,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "DSARequirement",
-                    "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement",
-                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO"
+                    "printedName": "AdSDKCore.DSARequirement",
+                    "usr": "s:9AdSDKCore14DSARequirementO"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV8requiredAC14DSARequirementOvp",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV8requiredAC14DSARequirementOvp",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV8requiredAA14DSARequirementOvp",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV8requiredAA14DSARequirementOvp",
                 "moduleName": "AdSDKCore",
                 "declAttributes": [
                   "HasStorage",
@@ -7898,13 +8655,13 @@
                       {
                         "kind": "TypeNominal",
                         "name": "DSARequirement",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO"
+                        "printedName": "AdSDKCore.DSARequirement",
+                        "usr": "s:9AdSDKCore14DSARequirementO"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV8requiredAC14DSARequirementOvg",
-                    "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV8requiredAC14DSARequirementOvg",
+                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV8requiredAA14DSARequirementOvg",
+                    "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV8requiredAA14DSARequirementOvg",
                     "moduleName": "AdSDKCore",
                     "implicit": true,
                     "accessorKind": "get"
@@ -7919,13 +8676,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "DSAPubRender",
-                    "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender",
-                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO"
+                    "printedName": "AdSDKCore.DSAPubRender",
+                    "usr": "s:9AdSDKCore12DSAPubRenderO"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV9pubRenderAC06DSAPubH0Ovp",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV9pubRenderAC06DSAPubH0Ovp",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV9pubRenderAA06DSAPubH0Ovp",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV9pubRenderAA06DSAPubH0Ovp",
                 "moduleName": "AdSDKCore",
                 "declAttributes": [
                   "HasStorage",
@@ -7943,13 +8700,13 @@
                       {
                         "kind": "TypeNominal",
                         "name": "DSAPubRender",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO"
+                        "printedName": "AdSDKCore.DSAPubRender",
+                        "usr": "s:9AdSDKCore12DSAPubRenderO"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV9pubRenderAC06DSAPubH0Ovg",
-                    "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV9pubRenderAC06DSAPubH0Ovg",
+                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV9pubRenderAA06DSAPubH0Ovg",
+                    "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV9pubRenderAA06DSAPubH0Ovg",
                     "moduleName": "AdSDKCore",
                     "implicit": true,
                     "accessorKind": "get"
@@ -7964,13 +8721,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "DSADataToPubs",
-                    "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs",
-                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO"
+                    "printedName": "AdSDKCore.DSADataToPubs",
+                    "usr": "s:9AdSDKCore13DSADataToPubsO"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV10dataToPubsAC07DSADatahI0Ovp",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV10dataToPubsAC07DSADatahI0Ovp",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV10dataToPubsAA07DSADatahI0Ovp",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV10dataToPubsAA07DSADatahI0Ovp",
                 "moduleName": "AdSDKCore",
                 "declAttributes": [
                   "HasStorage",
@@ -7988,13 +8745,13 @@
                       {
                         "kind": "TypeNominal",
                         "name": "DSADataToPubs",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO"
+                        "printedName": "AdSDKCore.DSADataToPubs",
+                        "usr": "s:9AdSDKCore13DSADataToPubsO"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV10dataToPubsAC07DSADatahI0Ovg",
-                    "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV10dataToPubsAC07DSADatahI0Ovg",
+                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV10dataToPubsAA07DSADatahI0Ovg",
+                    "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV10dataToPubsAA07DSADatahI0Ovg",
                     "moduleName": "AdSDKCore",
                     "implicit": true,
                     "accessorKind": "get"
@@ -8015,25 +8772,25 @@
                   {
                     "kind": "TypeNominal",
                     "name": "DSARequirement",
-                    "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement",
-                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO"
+                    "printedName": "AdSDKCore.DSARequirement",
+                    "usr": "s:9AdSDKCore14DSARequirementO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "DSAPubRender",
-                    "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender",
-                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO"
+                    "printedName": "AdSDKCore.DSAPubRender",
+                    "usr": "s:9AdSDKCore12DSAPubRenderO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "DSADataToPubs",
-                    "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs",
-                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO"
+                    "printedName": "AdSDKCore.DSADataToPubs",
+                    "usr": "s:9AdSDKCore13DSADataToPubsO"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV8required9pubRender10dataToPubsAeC14DSARequirementO_AC06DSAPubI0OAC07DSADatakL0Otcfc",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV8required9pubRender10dataToPubsAeC14DSARequirementO_AC06DSAPubI0OAC07DSADatakL0Otcfc",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC3DSAV8required9pubRender10dataToPubsAeA14DSARequirementO_AA06DSAPubI0OAA07DSADatakL0Otcfc",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC3DSAV8required9pubRender10dataToPubsAeA14DSARequirementO_AA06DSAPubI0OAA07DSADatakL0Otcfc",
                 "moduleName": "AdSDKCore",
                 "declAttributes": [
                   "AccessControl",
@@ -8115,35 +8872,35 @@
           },
           {
             "kind": "TypeDecl",
-            "name": "DSARequirement",
-            "printedName": "DSARequirement",
+            "name": "CookiesAccess",
+            "printedName": "CookiesAccess",
             "children": [
               {
                 "kind": "Var",
-                "name": "notRequired",
-                "printedName": "notRequired",
+                "name": "getSet",
+                "printedName": "getSet",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(AdSDKCore.AdRequestGlobalParameters.DSARequirement.Type) -> AdSDKCore.AdRequestGlobalParameters.DSARequirement",
+                    "printedName": "(AdSDKCore.AdRequestGlobalParameters.CookiesAccess.Type) -> AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "DSARequirement",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO"
+                        "name": "CookiesAccess",
+                        "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
+                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement.Type",
+                        "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "DSARequirement",
-                            "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement",
-                            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO"
+                            "name": "CookiesAccess",
+                            "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
+                            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO"
                           }
                         ]
                       }
@@ -8151,8 +8908,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO11notRequiredyA2EmF",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO11notRequiredyA2EmF",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO6getSetyA2EmF",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO6getSetyA2EmF",
                 "moduleName": "AdSDKCore",
                 "declAttributes": [
                   "RawDocComment"
@@ -8160,30 +8917,30 @@
               },
               {
                 "kind": "Var",
-                "name": "supported",
-                "printedName": "supported",
+                "name": "noCookies",
+                "printedName": "noCookies",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(AdSDKCore.AdRequestGlobalParameters.DSARequirement.Type) -> AdSDKCore.AdRequestGlobalParameters.DSARequirement",
+                    "printedName": "(AdSDKCore.AdRequestGlobalParameters.CookiesAccess.Type) -> AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "DSARequirement",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO"
+                        "name": "CookiesAccess",
+                        "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
+                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement.Type",
+                        "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "DSARequirement",
-                            "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement",
-                            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO"
+                            "name": "CookiesAccess",
+                            "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
+                            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO"
                           }
                         ]
                       }
@@ -8191,8 +8948,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO9supportedyA2EmF",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO9supportedyA2EmF",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO02noF0yA2EmF",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO02noF0yA2EmF",
                 "moduleName": "AdSDKCore",
                 "declAttributes": [
                   "RawDocComment"
@@ -8200,30 +8957,30 @@
               },
               {
                 "kind": "Var",
-                "name": "required",
-                "printedName": "required",
+                "name": "get",
+                "printedName": "get",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(AdSDKCore.AdRequestGlobalParameters.DSARequirement.Type) -> AdSDKCore.AdRequestGlobalParameters.DSARequirement",
+                    "printedName": "(AdSDKCore.AdRequestGlobalParameters.CookiesAccess.Type) -> AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "DSARequirement",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO"
+                        "name": "CookiesAccess",
+                        "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
+                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement.Type",
+                        "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "DSARequirement",
-                            "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement",
-                            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO"
+                            "name": "CookiesAccess",
+                            "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
+                            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO"
                           }
                         ]
                       }
@@ -8231,48 +8988,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO8requiredyA2EmF",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO8requiredyA2EmF",
-                "moduleName": "AdSDKCore",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "requiredForOnlinePlatform",
-                "printedName": "requiredForOnlinePlatform",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AdSDKCore.AdRequestGlobalParameters.DSARequirement.Type) -> AdSDKCore.AdRequestGlobalParameters.DSARequirement",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DSARequirement",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "DSARequirement",
-                            "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement",
-                            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO25requiredForOnlinePlatformyA2EmF",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO25requiredForOnlinePlatformyA2EmF",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO3getyA2EmF",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO3getyA2EmF",
                 "moduleName": "AdSDKCore",
                 "declAttributes": [
                   "RawDocComment"
@@ -8286,27 +9003,27 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement?",
+                    "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "DSARequirement",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSARequirement",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO"
+                        "name": "CookiesAccess",
+                        "printedName": "AdSDKCore.AdRequestGlobalParameters.CookiesAccess",
+                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO"
                       }
                     ],
                     "usr": "s:Sq"
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO8rawValueAESgSi_tcfc",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO8rawValueAESgSi_tcfc",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO8rawValueAESgSu_tcfc",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO8rawValueAESgSu_tcfc",
                 "moduleName": "AdSDKCore",
                 "implicit": true,
                 "init_kind": "Designated"
@@ -8318,14 +9035,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO8rawValueSivp",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO8rawValueSivp",
+                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO8rawValueSuvp",
+                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO8rawValueSuvp",
                 "moduleName": "AdSDKCore",
                 "implicit": true,
                 "accessors": [
@@ -8336,14 +9053,14 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "UInt",
+                        "printedName": "Swift.UInt",
+                        "usr": "s:Su"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO8rawValueSivg",
-                    "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO8rawValueSivg",
+                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO8rawValueSuvg",
+                    "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO8rawValueSuvg",
                     "moduleName": "AdSDKCore",
                     "implicit": true,
                     "accessorKind": "get"
@@ -8352,14 +9069,14 @@
               }
             ],
             "declKind": "Enum",
-            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO",
-            "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC14DSARequirementO",
+            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO",
+            "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13CookiesAccessO",
             "moduleName": "AdSDKCore",
             "declAttributes": [
               "RawDocComment"
             ],
             "isFromExtension": true,
-            "enumRawTypeName": "Int",
+            "enumRawTypeName": "UInt",
             "conformances": [
               {
                 "kind": "Conformance",
@@ -8401,543 +9118,9 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:SY",
-                "mangledName": "$sSY"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Sendable",
-                "printedName": "Sendable",
-                "usr": "s:s8SendableP",
-                "mangledName": "$ss8SendableP"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "DSAPubRender",
-            "printedName": "DSAPubRender",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "cantRender",
-                "printedName": "cantRender",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AdSDKCore.AdRequestGlobalParameters.DSAPubRender.Type) -> AdSDKCore.AdRequestGlobalParameters.DSAPubRender",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DSAPubRender",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "DSAPubRender",
-                            "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender",
-                            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO04cantG0yA2EmF",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO04cantG0yA2EmF",
-                "moduleName": "AdSDKCore",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "canRender",
-                "printedName": "canRender",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AdSDKCore.AdRequestGlobalParameters.DSAPubRender.Type) -> AdSDKCore.AdRequestGlobalParameters.DSAPubRender",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DSAPubRender",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "DSAPubRender",
-                            "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender",
-                            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO03canG0yA2EmF",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO03canG0yA2EmF",
-                "moduleName": "AdSDKCore",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "willRender",
-                "printedName": "willRender",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AdSDKCore.AdRequestGlobalParameters.DSAPubRender.Type) -> AdSDKCore.AdRequestGlobalParameters.DSAPubRender",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DSAPubRender",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "DSAPubRender",
-                            "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender",
-                            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO04willG0yA2EmF",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO04willG0yA2EmF",
-                "moduleName": "AdSDKCore",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DSAPubRender",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSAPubRender",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO8rawValueAESgSi_tcfc",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO8rawValueAESgSi_tcfc",
-                "moduleName": "AdSDKCore",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Var",
-                "name": "rawValue",
-                "printedName": "rawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO8rawValueSivp",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO8rawValueSivp",
-                "moduleName": "AdSDKCore",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO8rawValueSivg",
-                    "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO8rawValueSivg",
-                    "moduleName": "AdSDKCore",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO",
-            "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC12DSAPubRenderO",
-            "moduleName": "AdSDKCore",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "enumRawTypeName": "Int",
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "RawRepresentable",
-                "printedName": "RawRepresentable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "RawValue",
-                    "printedName": "RawValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:SY",
-                "mangledName": "$sSY"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Sendable",
-                "printedName": "Sendable",
-                "usr": "s:s8SendableP",
-                "mangledName": "$ss8SendableP"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "DSADataToPubs",
-            "printedName": "DSADataToPubs",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "ignoreTransparency",
-                "printedName": "ignoreTransparency",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AdSDKCore.AdRequestGlobalParameters.DSADataToPubs.Type) -> AdSDKCore.AdRequestGlobalParameters.DSADataToPubs",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DSADataToPubs",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "DSADataToPubs",
-                            "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs",
-                            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO18ignoreTransparencyyA2EmF",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO18ignoreTransparencyyA2EmF",
-                "moduleName": "AdSDKCore",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "optionalSendTransparency",
-                "printedName": "optionalSendTransparency",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AdSDKCore.AdRequestGlobalParameters.DSADataToPubs.Type) -> AdSDKCore.AdRequestGlobalParameters.DSADataToPubs",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DSADataToPubs",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "DSADataToPubs",
-                            "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs",
-                            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO24optionalSendTransparencyyA2EmF",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO24optionalSendTransparencyyA2EmF",
-                "moduleName": "AdSDKCore",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "sendTransparency",
-                "printedName": "sendTransparency",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AdSDKCore.AdRequestGlobalParameters.DSADataToPubs.Type) -> AdSDKCore.AdRequestGlobalParameters.DSADataToPubs",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DSADataToPubs",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "DSADataToPubs",
-                            "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs",
-                            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO16sendTransparencyyA2EmF",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO16sendTransparencyyA2EmF",
-                "moduleName": "AdSDKCore",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DSADataToPubs",
-                        "printedName": "AdSDKCore.AdRequestGlobalParameters.DSADataToPubs",
-                        "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO8rawValueAESgSi_tcfc",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO8rawValueAESgSi_tcfc",
-                "moduleName": "AdSDKCore",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Var",
-                "name": "rawValue",
-                "printedName": "rawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO8rawValueSivp",
-                "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO8rawValueSivp",
-                "moduleName": "AdSDKCore",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO8rawValueSivg",
-                    "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO8rawValueSivg",
-                    "moduleName": "AdSDKCore",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO",
-            "mangledName": "$s9AdSDKCore0A23RequestGlobalParametersC13DSADataToPubsO",
-            "moduleName": "AdSDKCore",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "enumRawTypeName": "Int",
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "RawRepresentable",
-                "printedName": "RawRepresentable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "RawValue",
-                    "printedName": "RawValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "UInt",
+                        "printedName": "Swift.UInt",
+                        "usr": "s:Su"
                       }
                     ]
                   }
@@ -13004,6 +13187,1209 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DSADataToPubs",
+        "printedName": "DSADataToPubs",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ignoreTransparency",
+            "printedName": "ignoreTransparency",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.DSADataToPubs.Type) -> AdSDKCore.DSADataToPubs",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSADataToPubs",
+                    "printedName": "AdSDKCore.DSADataToPubs",
+                    "usr": "s:9AdSDKCore13DSADataToPubsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.DSADataToPubs.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSADataToPubs",
+                        "printedName": "AdSDKCore.DSADataToPubs",
+                        "usr": "s:9AdSDKCore13DSADataToPubsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore13DSADataToPubsO18ignoreTransparencyyA2CmF",
+            "mangledName": "$s9AdSDKCore13DSADataToPubsO18ignoreTransparencyyA2CmF",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "optionalSendTransparency",
+            "printedName": "optionalSendTransparency",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.DSADataToPubs.Type) -> AdSDKCore.DSADataToPubs",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSADataToPubs",
+                    "printedName": "AdSDKCore.DSADataToPubs",
+                    "usr": "s:9AdSDKCore13DSADataToPubsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.DSADataToPubs.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSADataToPubs",
+                        "printedName": "AdSDKCore.DSADataToPubs",
+                        "usr": "s:9AdSDKCore13DSADataToPubsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore13DSADataToPubsO24optionalSendTransparencyyA2CmF",
+            "mangledName": "$s9AdSDKCore13DSADataToPubsO24optionalSendTransparencyyA2CmF",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sendTransparency",
+            "printedName": "sendTransparency",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.DSADataToPubs.Type) -> AdSDKCore.DSADataToPubs",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSADataToPubs",
+                    "printedName": "AdSDKCore.DSADataToPubs",
+                    "usr": "s:9AdSDKCore13DSADataToPubsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.DSADataToPubs.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSADataToPubs",
+                        "printedName": "AdSDKCore.DSADataToPubs",
+                        "usr": "s:9AdSDKCore13DSADataToPubsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore13DSADataToPubsO16sendTransparencyyA2CmF",
+            "mangledName": "$s9AdSDKCore13DSADataToPubsO16sendTransparencyyA2CmF",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdSDKCore.DSADataToPubs?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSADataToPubs",
+                    "printedName": "AdSDKCore.DSADataToPubs",
+                    "usr": "s:9AdSDKCore13DSADataToPubsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AdSDKCore13DSADataToPubsO8rawValueACSgSi_tcfc",
+            "mangledName": "$s9AdSDKCore13DSADataToPubsO8rawValueACSgSi_tcfc",
+            "moduleName": "AdSDKCore",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdSDKCore13DSADataToPubsO8rawValueSivp",
+            "mangledName": "$s9AdSDKCore13DSADataToPubsO8rawValueSivp",
+            "moduleName": "AdSDKCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore13DSADataToPubsO8rawValueSivg",
+                "mangledName": "$s9AdSDKCore13DSADataToPubsO8rawValueSivg",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AdSDKCore.DSADataToPubs]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSADataToPubs",
+                    "printedName": "AdSDKCore.DSADataToPubs",
+                    "usr": "s:9AdSDKCore13DSADataToPubsO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdSDKCore13DSADataToPubsO8allCasesSayACGvpZ",
+            "mangledName": "$s9AdSDKCore13DSADataToPubsO8allCasesSayACGvpZ",
+            "moduleName": "AdSDKCore",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AdSDKCore.DSADataToPubs]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSADataToPubs",
+                        "printedName": "AdSDKCore.DSADataToPubs",
+                        "usr": "s:9AdSDKCore13DSADataToPubsO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore13DSADataToPubsO8allCasesSayACGvgZ",
+                "mangledName": "$s9AdSDKCore13DSADataToPubsO8allCasesSayACGvgZ",
+                "moduleName": "AdSDKCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AdSDKCore13DSADataToPubsO",
+        "mangledName": "$s9AdSDKCore13DSADataToPubsO",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AdSDKCore.DSADataToPubs]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSADataToPubs",
+                        "printedName": "AdSDKCore.DSADataToPubs",
+                        "usr": "s:9AdSDKCore13DSADataToPubsO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DSAPubRender",
+        "printedName": "DSAPubRender",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cantRender",
+            "printedName": "cantRender",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.DSAPubRender.Type) -> AdSDKCore.DSAPubRender",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSAPubRender",
+                    "printedName": "AdSDKCore.DSAPubRender",
+                    "usr": "s:9AdSDKCore12DSAPubRenderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.DSAPubRender.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSAPubRender",
+                        "printedName": "AdSDKCore.DSAPubRender",
+                        "usr": "s:9AdSDKCore12DSAPubRenderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore12DSAPubRenderO04cantD0yA2CmF",
+            "mangledName": "$s9AdSDKCore12DSAPubRenderO04cantD0yA2CmF",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "canRender",
+            "printedName": "canRender",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.DSAPubRender.Type) -> AdSDKCore.DSAPubRender",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSAPubRender",
+                    "printedName": "AdSDKCore.DSAPubRender",
+                    "usr": "s:9AdSDKCore12DSAPubRenderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.DSAPubRender.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSAPubRender",
+                        "printedName": "AdSDKCore.DSAPubRender",
+                        "usr": "s:9AdSDKCore12DSAPubRenderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore12DSAPubRenderO03canD0yA2CmF",
+            "mangledName": "$s9AdSDKCore12DSAPubRenderO03canD0yA2CmF",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "willRender",
+            "printedName": "willRender",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.DSAPubRender.Type) -> AdSDKCore.DSAPubRender",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSAPubRender",
+                    "printedName": "AdSDKCore.DSAPubRender",
+                    "usr": "s:9AdSDKCore12DSAPubRenderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.DSAPubRender.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSAPubRender",
+                        "printedName": "AdSDKCore.DSAPubRender",
+                        "usr": "s:9AdSDKCore12DSAPubRenderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore12DSAPubRenderO04willD0yA2CmF",
+            "mangledName": "$s9AdSDKCore12DSAPubRenderO04willD0yA2CmF",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdSDKCore.DSAPubRender?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSAPubRender",
+                    "printedName": "AdSDKCore.DSAPubRender",
+                    "usr": "s:9AdSDKCore12DSAPubRenderO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AdSDKCore12DSAPubRenderO8rawValueACSgSi_tcfc",
+            "mangledName": "$s9AdSDKCore12DSAPubRenderO8rawValueACSgSi_tcfc",
+            "moduleName": "AdSDKCore",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdSDKCore12DSAPubRenderO8rawValueSivp",
+            "mangledName": "$s9AdSDKCore12DSAPubRenderO8rawValueSivp",
+            "moduleName": "AdSDKCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore12DSAPubRenderO8rawValueSivg",
+                "mangledName": "$s9AdSDKCore12DSAPubRenderO8rawValueSivg",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AdSDKCore.DSAPubRender]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSAPubRender",
+                    "printedName": "AdSDKCore.DSAPubRender",
+                    "usr": "s:9AdSDKCore12DSAPubRenderO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdSDKCore12DSAPubRenderO8allCasesSayACGvpZ",
+            "mangledName": "$s9AdSDKCore12DSAPubRenderO8allCasesSayACGvpZ",
+            "moduleName": "AdSDKCore",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AdSDKCore.DSAPubRender]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSAPubRender",
+                        "printedName": "AdSDKCore.DSAPubRender",
+                        "usr": "s:9AdSDKCore12DSAPubRenderO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore12DSAPubRenderO8allCasesSayACGvgZ",
+                "mangledName": "$s9AdSDKCore12DSAPubRenderO8allCasesSayACGvgZ",
+                "moduleName": "AdSDKCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AdSDKCore12DSAPubRenderO",
+        "mangledName": "$s9AdSDKCore12DSAPubRenderO",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AdSDKCore.DSAPubRender]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSAPubRender",
+                        "printedName": "AdSDKCore.DSAPubRender",
+                        "usr": "s:9AdSDKCore12DSAPubRenderO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DSARequirement",
+        "printedName": "DSARequirement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notRequired",
+            "printedName": "notRequired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.DSARequirement.Type) -> AdSDKCore.DSARequirement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSARequirement",
+                    "printedName": "AdSDKCore.DSARequirement",
+                    "usr": "s:9AdSDKCore14DSARequirementO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.DSARequirement.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSARequirement",
+                        "printedName": "AdSDKCore.DSARequirement",
+                        "usr": "s:9AdSDKCore14DSARequirementO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore14DSARequirementO11notRequiredyA2CmF",
+            "mangledName": "$s9AdSDKCore14DSARequirementO11notRequiredyA2CmF",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supported",
+            "printedName": "supported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.DSARequirement.Type) -> AdSDKCore.DSARequirement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSARequirement",
+                    "printedName": "AdSDKCore.DSARequirement",
+                    "usr": "s:9AdSDKCore14DSARequirementO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.DSARequirement.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSARequirement",
+                        "printedName": "AdSDKCore.DSARequirement",
+                        "usr": "s:9AdSDKCore14DSARequirementO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore14DSARequirementO9supportedyA2CmF",
+            "mangledName": "$s9AdSDKCore14DSARequirementO9supportedyA2CmF",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "required",
+            "printedName": "required",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.DSARequirement.Type) -> AdSDKCore.DSARequirement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSARequirement",
+                    "printedName": "AdSDKCore.DSARequirement",
+                    "usr": "s:9AdSDKCore14DSARequirementO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.DSARequirement.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSARequirement",
+                        "printedName": "AdSDKCore.DSARequirement",
+                        "usr": "s:9AdSDKCore14DSARequirementO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore14DSARequirementO8requiredyA2CmF",
+            "mangledName": "$s9AdSDKCore14DSARequirementO8requiredyA2CmF",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requiredForOnlinePlatform",
+            "printedName": "requiredForOnlinePlatform",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdSDKCore.DSARequirement.Type) -> AdSDKCore.DSARequirement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSARequirement",
+                    "printedName": "AdSDKCore.DSARequirement",
+                    "usr": "s:9AdSDKCore14DSARequirementO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdSDKCore.DSARequirement.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSARequirement",
+                        "printedName": "AdSDKCore.DSARequirement",
+                        "usr": "s:9AdSDKCore14DSARequirementO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AdSDKCore14DSARequirementO25requiredForOnlinePlatformyA2CmF",
+            "mangledName": "$s9AdSDKCore14DSARequirementO25requiredForOnlinePlatformyA2CmF",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdSDKCore.DSARequirement?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSARequirement",
+                    "printedName": "AdSDKCore.DSARequirement",
+                    "usr": "s:9AdSDKCore14DSARequirementO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AdSDKCore14DSARequirementO8rawValueACSgSi_tcfc",
+            "mangledName": "$s9AdSDKCore14DSARequirementO8rawValueACSgSi_tcfc",
+            "moduleName": "AdSDKCore",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdSDKCore14DSARequirementO8rawValueSivp",
+            "mangledName": "$s9AdSDKCore14DSARequirementO8rawValueSivp",
+            "moduleName": "AdSDKCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore14DSARequirementO8rawValueSivg",
+                "mangledName": "$s9AdSDKCore14DSARequirementO8rawValueSivg",
+                "moduleName": "AdSDKCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AdSDKCore.DSARequirement]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSARequirement",
+                    "printedName": "AdSDKCore.DSARequirement",
+                    "usr": "s:9AdSDKCore14DSARequirementO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AdSDKCore14DSARequirementO8allCasesSayACGvpZ",
+            "mangledName": "$s9AdSDKCore14DSARequirementO8allCasesSayACGvpZ",
+            "moduleName": "AdSDKCore",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AdSDKCore.DSARequirement]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSARequirement",
+                        "printedName": "AdSDKCore.DSARequirement",
+                        "usr": "s:9AdSDKCore14DSARequirementO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AdSDKCore14DSARequirementO8allCasesSayACGvgZ",
+                "mangledName": "$s9AdSDKCore14DSARequirementO8allCasesSayACGvgZ",
+                "moduleName": "AdSDKCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AdSDKCore14DSARequirementO",
+        "mangledName": "$s9AdSDKCore14DSARequirementO",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AdSDKCore.DSARequirement]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSARequirement",
+                        "printedName": "AdSDKCore.DSARequirement",
+                        "usr": "s:9AdSDKCore14DSARequirementO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "AdPlacementType",
         "printedName": "AdPlacementType",
@@ -13235,16 +14621,6 @@
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdSDKCore",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -13822,6 +15198,35 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TapURL",
+                "printedName": "AdSDKCore.TapURL",
+                "usr": "s:9AdSDKCore6TapURLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9AdSDKCore6TapURLV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9AdSDKCore6TapURLV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AdSDKCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -13961,7 +15366,34 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -15047,6 +16479,33 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdSDKCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "AdSDKCore",
         "declAttributes": [
@@ -16962,14 +18421,14 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Entities\/AdMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 6500,
+      "offset": 12932,
       "length": 6,
       "value": "\"body\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Core\/Advertisement\/Entities\/AdMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 6528,
+      "offset": 12960,
       "length": 5,
       "value": "\"ext\""
     },
@@ -16981,151 +18440,305 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Requests\/GlobalParameters\/AdRequestGlobalParameters.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Requests\/GlobalParameters\/AdRequestGlobalParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 5649,
+      "offset": 6739,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Requests\/GlobalParameters\/AdRequestGlobalParameters.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Requests\/GlobalParameters\/AdRequestGlobalParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 5757,
+      "offset": 6814,
+      "length": 3,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Requests\/GlobalParameters\/GlobalParamaters.swift",
+      "kind": "StringLiteral",
+      "offset": 9790,
+      "length": 14,
+      "value": "\"gdpr_consent\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Requests\/GlobalParameters\/GlobalParamaters.swift",
+      "kind": "StringLiteral",
+      "offset": 9845,
+      "length": 6,
+      "value": "\"gdpr\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Requests\/GlobalParameters\/GlobalParamaters.swift",
+      "kind": "StringLiteral",
+      "offset": 9880,
       "length": 8,
-      "value": "2"
+      "value": "\"optout\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Requests\/GlobalParameters\/AdRequestGlobalParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5909,
-      "length": 25,
-      "value": "3"
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Requests\/GlobalParameters\/GlobalParamaters.swift",
+      "kind": "StringLiteral",
+      "offset": 9922,
+      "length": 12,
+      "value": "\"uid_stable\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Requests\/GlobalParameters\/AdRequestGlobalParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6292,
-      "length": 9,
-      "value": "1"
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Requests\/GlobalParameters\/GlobalParamaters.swift",
+      "kind": "StringLiteral",
+      "offset": 9968,
+      "length": 14,
+      "value": "\"external_uid\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Requests\/GlobalParameters\/AdRequestGlobalParameters.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Requests\/AdRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 6351,
-      "length": 10,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Requests\/GlobalParameters\/AdRequestGlobalParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6645,
-      "length": 24,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Requests\/GlobalParameters\/AdRequestGlobalParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6720,
-      "length": 16,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Requests\/AdRequest.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15081,
+      "offset": 14823,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 660,
+      "offset": 686,
       "length": 12,
       "value": "\"network_id\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 699,
+      "offset": 725,
       "length": 13,
       "value": "\"campaign_id\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 737,
+      "offset": 763,
       "length": 11,
       "value": "\"banner_id\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 771,
+      "offset": 797,
       "length": 9,
       "value": "\"ad_type\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 803,
+      "offset": 829,
       "length": 9,
       "value": "\"ad_name\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 835,
+      "offset": 861,
       "length": 11,
       "value": "\"click_url\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 872,
+      "offset": 898,
       "length": 16,
       "value": "\"placement_type\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
+      "kind": "Array",
+      "offset": 1588,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
+      "kind": "Array",
+      "offset": 1677,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 5141,
+      "offset": 4859,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 5156,
+      "offset": 4874,
       "length": 20,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 5190,
+      "offset": 4908,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 5233,
+      "offset": 4951,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5666,
+      "offset": 5384,
       "length": 14,
       "value": "\"customnative\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdResponse.swift",
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/AdResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5741,
+      "offset": 5459,
       "length": 48,
       "value": "\"One of the assets does not have an `id` field.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/DSAResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1501,
+      "length": 5,
+      "value": "\"nid\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/DSAResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1535,
+      "length": 7,
+      "value": "\"ctype\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/DSAResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1567,
+      "length": 13,
+      "value": "\"dsarequired\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/DSAResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1606,
+      "length": 14,
+      "value": "\"dsapubrender\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/DSAResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1647,
+      "length": 15,
+      "value": "\"dsadatatopubs\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/DSAResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1689,
+      "length": 11,
+      "value": "\"dsaparams\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/DSAResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1729,
+      "length": 17,
+      "value": "\"dsatransparency\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/DSAResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1771,
+      "length": 13,
+      "value": "\"dsaadrender\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/DSAResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1807,
+      "length": 11,
+      "value": "\"dsabehalf\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/DSAResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1839,
+      "length": 9,
+      "value": "\"dsapaid\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/DSAResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4037,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/DSAResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4042,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Responses\/DSAResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4050,
+      "length": 8,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Reusable\/DSADataToPubs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 454,
+      "length": 24,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Reusable\/DSADataToPubs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 521,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Reusable\/DSAPubRender.swift",
+      "kind": "IntegerLiteral",
+      "offset": 523,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Reusable\/DSAPubRender.swift",
+      "kind": "IntegerLiteral",
+      "offset": 574,
+      "length": 10,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Reusable\/DSARequirement.swift",
+      "kind": "IntegerLiteral",
+      "offset": 444,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Reusable\/DSARequirement.swift",
+      "kind": "IntegerLiteral",
+      "offset": 544,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/Network\/Reusable\/DSARequirement.swift",
+      "kind": "IntegerLiteral",
+      "offset": 684,
+      "length": 25,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/AdVisibilityPercentage.swift",
@@ -17151,35 +18764,42 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Entities\/TapURL.swift",
       "kind": "StringLiteral",
-      "offset": 3063,
+      "offset": 3323,
       "length": 12,
       "value": "\"nodisplay-\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Environment\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 1332,
+      "offset": 1495,
       "length": 10,
       "value": "\"BASE_URL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Environment\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 1376,
+      "offset": 1539,
       "length": 19,
       "value": "\"ANALYSER_BASE_URL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Environment\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 1421,
+      "offset": 1583,
+      "length": 9,
+      "value": "\"DSA_URL\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Environment\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 1618,
       "length": 10,
       "value": "\"AD_TYPES\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Environment\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 1457,
+      "offset": 1654,
       "length": 13,
       "value": "\"SDK_VERSION\""
     },
@@ -17210,6 +18830,13 @@
       "offset": 5617,
       "length": 9,
       "value": "1000000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/EventHandler\/DSAEventHandler\/DSAEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1918,
+      "length": 34,
+      "value": "\"Failed to encode DSA parameters.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/EventHandler\/TapEventHandler\/TapEventHandler.swift",
@@ -17403,168 +19030,147 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3023,
+      "offset": 2622,
       "length": 5,
       "value": "\"wpt\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3062,
+      "offset": 2661,
       "length": 5,
       "value": "\"sid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3101,
+      "offset": 2700,
       "length": 4,
       "value": "\"lt\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3135,
+      "offset": 2734,
       "length": 18,
       "value": "\"prf[_sdk_adtype]\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3185,
+      "offset": 2784,
       "length": 35,
       "value": "\"prf[_sdk_customnative_adrenderer]\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3249,
+      "offset": 2848,
       "length": 4,
       "value": "\"wi\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3283,
+      "offset": 2882,
       "length": 4,
       "value": "\"kw\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3316,
-      "length": 8,
-      "value": "\"optout\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 3365,
-      "length": 6,
-      "value": "\"gdpr\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 3405,
-      "length": 14,
-      "value": "\"gdpr_consent\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 3448,
+      "offset": 2915,
       "length": 9,
       "value": "\"gdpr_pd\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3491,
-      "length": 14,
-      "value": "\"external_uid\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 3539,
-      "length": 12,
-      "value": "\"uid_stable\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 3586,
+      "offset": 2959,
       "length": 5,
       "value": "\"shb\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3624,
+      "offset": 2997,
       "length": 5,
       "value": "\"kid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3660,
+      "offset": 3033,
       "length": 5,
       "value": "\"bid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3699,
+      "offset": 3072,
       "length": 13,
       "value": "\"dsarequired\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3747,
+      "offset": 3120,
       "length": 14,
       "value": "\"dsapubrender\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3797,
+      "offset": 3170,
       "length": 15,
       "value": "\"dsadatatopubs\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3844,
+      "offset": 3217,
       "length": 4,
       "value": "\"nw\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3900,
+      "offset": 3257,
+      "length": 12,
+      "value": "\"no_cookies\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3306,
+      "length": 5,
+      "value": "\"ipt\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3363,
       "length": 9,
       "value": "\"\/banner\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3943,
+      "offset": 3406,
       "length": 5,
       "value": "\"\/lt\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 4289,
+      "offset": 3752,
       "length": 3,
       "value": "\"X\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/AdRequestService\/AdRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 4316,
+      "offset": 3779,
       "length": 3,
       "value": "\",\""
     },
@@ -17704,126 +19310,91 @@
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3485,
+      "offset": 2353,
       "length": 7,
       "value": "\"track\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3522,
+      "offset": 2390,
       "length": 9,
       "value": "\"tagging\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3582,
-      "length": 8,
-      "value": "\"optout\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 3631,
-      "length": 6,
-      "value": "\"gdpr\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 3671,
-      "length": 14,
-      "value": "\"gdpr_consent\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 3719,
-      "length": 14,
-      "value": "\"external_uid\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 3767,
-      "length": 12,
-      "value": "\"uid_stable\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 3833,
+      "offset": 2474,
       "length": 9,
       "value": "\"network\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3914,
+      "offset": 2555,
       "length": 5,
       "value": "\"tid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3960,
+      "offset": 2601,
       "length": 5,
       "value": "\"sid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 3999,
+      "offset": 2640,
       "length": 9,
       "value": "\"orderid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 4040,
+      "offset": 2681,
       "length": 7,
       "value": "\"price\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 4079,
+      "offset": 2720,
       "length": 7,
       "value": "\"total\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 4121,
+      "offset": 2762,
       "length": 10,
       "value": "\"quantity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 4168,
+      "offset": 2809,
       "length": 8,
       "value": "\"itemno\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 4207,
+      "offset": 2848,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 4251,
+      "offset": 2892,
       "length": 7,
       "value": "\"descr\""
     },
     {
       "filePath": "\/Users\/runner\/work\/nextgen-adsdk-ios\/nextgen-adsdk-ios\/AdSDKCore\/AdSDKCore\/Services\/Network\/TrackingRequestService\/TrackingRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 4332,
+      "offset": 2973,
       "length": 7,
       "value": "\"image\""
     }

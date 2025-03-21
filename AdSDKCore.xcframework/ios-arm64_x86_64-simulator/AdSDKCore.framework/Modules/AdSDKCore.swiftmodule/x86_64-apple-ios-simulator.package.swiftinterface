@@ -114,9 +114,25 @@ extension AdSDKCore.AdInterstitialState {
   @_Concurrency.MainActor final public var aspectRatio: Swift.Double?
   @_Concurrency.MainActor final public var trackingEvents: [AdSDKCore.TrackingEventData]?
   @_Concurrency.MainActor final public var ext: [Swift.String : Any]
+  @_Concurrency.MainActor final public var durationMetadata: AdSDKCore.AdMetadata.DurationMetadata?
   @_Concurrency.MainActor final public var rendererMetadata: [Swift.String : Any]?
-  @_Concurrency.MainActor public init(networkId: Swift.Int, campaignId: Swift.String, bannerId: Swift.String, adType: Swift.String, placement: AdSDKCore.AdPlacementType, adName: Swift.String?, aspectRatio: Swift.Double?, trackingEvents: [AdSDKCore.TrackingEventData]?, rawResponse: Foundation.Data, rendererMetadata: [Swift.String : Any]? = nil)
+  @_Concurrency.MainActor final public var isDSAButtonShown: Swift.Bool
+  @_Concurrency.MainActor public init(networkId: Swift.Int, campaignId: Swift.String, bannerId: Swift.String, adType: Swift.String, placement: AdSDKCore.AdPlacementType, adName: Swift.String?, aspectRatio: Swift.Double?, trackingEvents: [AdSDKCore.TrackingEventData]?, rawResponse: Foundation.Data, isDSAButtonShown: Swift.Bool, durationMetadata: AdSDKCore.AdMetadata.DurationMetadata? = nil, rendererMetadata: [Swift.String : Any]? = nil)
   @objc deinit
+}
+extension AdSDKCore.AdMetadata {
+  public struct DurationMetadata : Swift.Sendable {
+    public var requestDuration: Foundation.TimeInterval {
+      get
+    }
+    public var rendererConfigurationDuration: Foundation.TimeInterval {
+      get
+    }
+    public var totalDuration: Foundation.TimeInterval {
+      get
+    }
+    public init(requestStartTime: Foundation.Date, requestEndTime: Foundation.Date, rendererConfigurationStartTime: Foundation.Date, rendererConfigurationEndTime: Foundation.Date, loadStartTime: Foundation.Date, loadEndTime: Foundation.Date)
+  }
 }
 public enum TapEvent : Swift.Hashable, Swift.Equatable, Swift.Sendable {
   case tap
@@ -158,6 +174,7 @@ public protocol Advertisement : AnyObject, Swift.Sendable {
   @_Concurrency.MainActor var _controller: (any AdSDKCore.AdController)? { get }
   @_Concurrency.MainActor var _presentationDelegate: (any AdSDKCore._AdPresentationDelegate)? { get set }
   @_Concurrency.MainActor func _layoutDidChange(visibility: Swift.Int)
+  func _performDSATap() async
 }
 public protocol AdControllerDelegate : AnyObject, Swift.Sendable {
   #if compiler(>=5.3) && $TypedThrows
@@ -234,45 +251,26 @@ public enum AdError : Swift.Error, Swift.Equatable, Swift.Hashable, Swift.Sendab
 @_Concurrency.MainActor final public class AdRequestGlobalParameters : AdSDKCore.GlobalParameters {
   @_Concurrency.MainActor final public var isSHBEnabled: Swift.Bool?
   @_Concurrency.MainActor final public var dsa: AdSDKCore.AdRequestGlobalParameters.DSA?
-  @_Concurrency.MainActor public init(gdpr: AdSDKCore.GlobalParameters.GDPR? = nil, externalUID: AdSDKCore.GlobalParameters.ExternalUID? = nil, isOptOutEnabled: Swift.Bool? = nil, userIds: [AdSDKCore.GlobalParameters.UserIdType]? = nil, isSHBEnabled: Swift.Bool? = nil, dsa: AdSDKCore.AdRequestGlobalParameters.DSA? = nil)
+  @_Concurrency.MainActor final public var isIpIdentified: Swift.Bool?
+  @_Concurrency.MainActor final public var cookiesAccess: AdSDKCore.AdRequestGlobalParameters.CookiesAccess?
+  @_Concurrency.MainActor public init(gdpr: AdSDKCore.GlobalParameters.GDPR? = nil, externalUID: AdSDKCore.GlobalParameters.ExternalUID? = nil, isOptOutEnabled: Swift.Bool? = nil, userIds: [AdSDKCore.GlobalParameters.UserIdType]? = nil, isSHBEnabled: Swift.Bool? = nil, dsa: AdSDKCore.AdRequestGlobalParameters.DSA? = nil, isIpIdentified: Swift.Bool? = nil, cookiesAccess: AdSDKCore.AdRequestGlobalParameters.CookiesAccess? = nil)
   @objc deinit
 }
 extension AdSDKCore.AdRequestGlobalParameters {
   public struct DSA : Swift.Equatable, Swift.Sendable {
-    public let required: AdSDKCore.AdRequestGlobalParameters.DSARequirement
-    public let pubRender: AdSDKCore.AdRequestGlobalParameters.DSAPubRender
-    public let dataToPubs: AdSDKCore.AdRequestGlobalParameters.DSADataToPubs
-    public init(required: AdSDKCore.AdRequestGlobalParameters.DSARequirement, pubRender: AdSDKCore.AdRequestGlobalParameters.DSAPubRender, dataToPubs: AdSDKCore.AdRequestGlobalParameters.DSADataToPubs)
+    public let required: AdSDKCore.DSARequirement
+    public let pubRender: AdSDKCore.DSAPubRender
+    public let dataToPubs: AdSDKCore.DSADataToPubs
+    public init(required: AdSDKCore.DSARequirement, pubRender: AdSDKCore.DSAPubRender, dataToPubs: AdSDKCore.DSADataToPubs)
     public static func == (a: AdSDKCore.AdRequestGlobalParameters.DSA, b: AdSDKCore.AdRequestGlobalParameters.DSA) -> Swift.Bool
   }
-  public enum DSARequirement : Swift.Int, Swift.Sendable {
-    case notRequired
-    case supported
-    case required
-    case requiredForOnlinePlatform
-    public init?(rawValue: Swift.Int)
-    public typealias RawValue = Swift.Int
-    public var rawValue: Swift.Int {
-      get
-    }
-  }
-  public enum DSAPubRender : Swift.Int, Swift.Sendable {
-    case cantRender
-    case canRender
-    case willRender
-    public init?(rawValue: Swift.Int)
-    public typealias RawValue = Swift.Int
-    public var rawValue: Swift.Int {
-      get
-    }
-  }
-  public enum DSADataToPubs : Swift.Int, Swift.Sendable {
-    case ignoreTransparency
-    case optionalSendTransparency
-    case sendTransparency
-    public init?(rawValue: Swift.Int)
-    public typealias RawValue = Swift.Int
-    public var rawValue: Swift.Int {
+  public enum CookiesAccess : Swift.UInt, Swift.Sendable {
+    case getSet
+    case noCookies
+    case get
+    public init?(rawValue: Swift.UInt)
+    public typealias RawValue = Swift.UInt
+    public var rawValue: Swift.UInt {
       get
     }
   }
@@ -360,6 +358,52 @@ public struct TrackingRequest : Swift.Equatable, Swift.Sendable {
   public init(landingpageId: Swift.UInt16, trackingspotId: Swift.UInt16, orderId: Swift.String? = nil, price: Swift.Float? = nil, total: Swift.Float? = nil, quantity: Swift.UInt32? = nil, itemNumber: Swift.String? = nil, description: Swift.String? = nil, timeout: Foundation.TimeInterval? = nil)
   public static func == (a: AdSDKCore.TrackingRequest, b: AdSDKCore.TrackingRequest) -> Swift.Bool
 }
+extension AdSDKCore.TrackingEventData : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum DSADataToPubs : Swift.Int, Swift.Sendable, Swift.Codable, Swift.CaseIterable {
+  case ignoreTransparency
+  case optionalSendTransparency
+  case sendTransparency
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [AdSDKCore.DSADataToPubs]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [AdSDKCore.DSADataToPubs] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum DSAPubRender : Swift.Int, Swift.Sendable, Swift.Codable, Swift.CaseIterable {
+  case cantRender
+  case canRender
+  case willRender
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [AdSDKCore.DSAPubRender]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [AdSDKCore.DSAPubRender] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum DSARequirement : Swift.Int, Swift.Sendable, Swift.Codable, Swift.CaseIterable {
+  case notRequired
+  case supported
+  case required
+  case requiredForOnlinePlatform
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [AdSDKCore.DSARequirement]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [AdSDKCore.DSARequirement] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public enum AdPlacementType : Swift.String, Swift.Decodable, Swift.Equatable, Swift.Hashable, Swift.Sendable {
   case inline
   case interstitial
@@ -368,9 +412,6 @@ public enum AdPlacementType : Swift.String, Swift.Decodable, Swift.Equatable, Sw
   public var rawValue: Swift.String {
     get
   }
-}
-extension AdSDKCore.TrackingEventData : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
 }
 public enum AdVisibilityPercentage : Swift.Int, Swift.CaseIterable, Swift.Equatable, Swift.Sendable {
   case one
@@ -386,12 +427,13 @@ public enum AdVisibilityPercentage : Swift.Int, Swift.CaseIterable, Swift.Equata
     get
   }
 }
-public struct TapURL : Swift.Equatable, Swift.Hashable, Swift.Sendable {
+public struct TapURL : Swift.Equatable, Swift.Hashable, Swift.Sendable, Swift.Decodable {
   public let isLeadToDeeplink: Swift.Bool
   public let url: Foundation.URL
   public let rawURL: Swift.String
   public init(_ rawURL: Swift.String) throws
   public init(_ url: Foundation.URL)
+  public init(from decoder: any Swift.Decoder) throws
   public static func == (a: AdSDKCore.TapURL, b: AdSDKCore.TapURL) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -496,16 +538,19 @@ public protocol AssetRequestService : Swift.Sendable {
 #warning("Code should be removed when migrate to IOS 17 as a min target")
 #warning("Code should be rewritten when migrate to IOS 15 as a min target")
 extension AdSDKCore.AdMetadata : Swift.Sendable {}
-extension AdSDKCore.AdRequestGlobalParameters.DSARequirement : Swift.Equatable {}
-extension AdSDKCore.AdRequestGlobalParameters.DSARequirement : Swift.Hashable {}
-extension AdSDKCore.AdRequestGlobalParameters.DSARequirement : Swift.RawRepresentable {}
-extension AdSDKCore.AdRequestGlobalParameters.DSAPubRender : Swift.Equatable {}
-extension AdSDKCore.AdRequestGlobalParameters.DSAPubRender : Swift.Hashable {}
-extension AdSDKCore.AdRequestGlobalParameters.DSAPubRender : Swift.RawRepresentable {}
-extension AdSDKCore.AdRequestGlobalParameters.DSADataToPubs : Swift.Equatable {}
-extension AdSDKCore.AdRequestGlobalParameters.DSADataToPubs : Swift.Hashable {}
-extension AdSDKCore.AdRequestGlobalParameters.DSADataToPubs : Swift.RawRepresentable {}
+extension AdSDKCore.AdRequestGlobalParameters.CookiesAccess : Swift.Equatable {}
+extension AdSDKCore.AdRequestGlobalParameters.CookiesAccess : Swift.Hashable {}
+extension AdSDKCore.AdRequestGlobalParameters.CookiesAccess : Swift.RawRepresentable {}
 extension AdSDKCore.GlobalParameters : Swift.Sendable {}
+extension AdSDKCore.DSADataToPubs : Swift.Equatable {}
+extension AdSDKCore.DSADataToPubs : Swift.Hashable {}
+extension AdSDKCore.DSADataToPubs : Swift.RawRepresentable {}
+extension AdSDKCore.DSAPubRender : Swift.Equatable {}
+extension AdSDKCore.DSAPubRender : Swift.Hashable {}
+extension AdSDKCore.DSAPubRender : Swift.RawRepresentable {}
+extension AdSDKCore.DSARequirement : Swift.Equatable {}
+extension AdSDKCore.DSARequirement : Swift.Hashable {}
+extension AdSDKCore.DSARequirement : Swift.RawRepresentable {}
 extension AdSDKCore.AdPlacementType : Swift.RawRepresentable {}
 extension AdSDKCore.AdVisibilityPercentage : Swift.Hashable {}
 extension AdSDKCore.AdVisibilityPercentage : Swift.RawRepresentable {}

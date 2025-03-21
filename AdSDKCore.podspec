@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name         = "AdSDKCore"
-    spec.version      = "6.1.1"
+    spec.version      = "6.2.0"
     spec.summary      = "TODO"
     spec.description  = <<-DESC
         TODO

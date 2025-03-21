@@ -20,6 +20,12 @@ import os
 extension UIKit.UIImage {
   #warning("Code should be rewritten when migrate to IOS 15 as a min target")
 }
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func adsContainer(width: CoreFoundation.CGFloat? = nil, height: CoreFoundation.CGFloat? = nil, alignment: SwiftUICore.Alignment = .center) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func adsContainer(minWidth: CoreFoundation.CGFloat? = nil, idealWidth: CoreFoundation.CGFloat? = nil, maxWidth: CoreFoundation.CGFloat? = nil, minHeight: CoreFoundation.CGFloat? = nil, idealHeight: CoreFoundation.CGFloat? = nil, maxHeight: CoreFoundation.CGFloat? = nil, alignment: SwiftUICore.Alignment = .center) -> some SwiftUICore.View
+  
+}
 @_Concurrency.MainActor @preconcurrency public struct AdView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(advertisement: any AdSDKCore.Advertisement)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -30,12 +36,6 @@ extension UIKit.UIImage {
 }
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func interstitial(_ state: SwiftUICore.Binding<AdSDKCore.AdInterstitialState>) -> some SwiftUICore.View
-  
-}
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func adsContainer(width: CoreFoundation.CGFloat? = nil, height: CoreFoundation.CGFloat? = nil, alignment: SwiftUICore.Alignment = .center) -> some SwiftUICore.View
-  
-  @_Concurrency.MainActor @preconcurrency public func adsContainer(minWidth: CoreFoundation.CGFloat? = nil, idealWidth: CoreFoundation.CGFloat? = nil, maxWidth: CoreFoundation.CGFloat? = nil, minHeight: CoreFoundation.CGFloat? = nil, idealHeight: CoreFoundation.CGFloat? = nil, maxHeight: CoreFoundation.CGFloat? = nil, alignment: SwiftUICore.Alignment = .center) -> some SwiftUICore.View
   
 }
 extension AdSDKCore.AdService {
